@@ -38,7 +38,7 @@ from __init__ import *
 def create_dirs(itr,base):
     logf('create_dirs()',  base ,logfile)
     dirs=[]
-    dirs.append(base+ '00_perior')
+    dirs.append(base+ '00_prior')
     dirs.append(base+ '01_bat_inp')
     dirs.append(base+ '02_bat_adj')
     dirs.append(base+ '03_mem_inp')
@@ -82,12 +82,13 @@ def make_bathy(dirs,nmember,len_i,len_j,dep_ij,equal_space):
     
     if not equal_space:
         os.system('cp '+local_inp+'/const/nri_curv_grid.nc '+dirs[0]+'/nri_curv_grid.nc')
-    os.system('cp ' +scr_dir+'/'+mk_bathy+' ' +dirs[0])
-    
+    os.system('cp ' +scr_dir+'/'+mk_bathy     +' ' +dirs[0])
+    #os.system('cp ' +scr_dir+'/mat/startup.m '+' ' +dirs[0])
+
     if False:
         os.system('cd '+dirs[0]+'; matlab10b -nodesktop -nosplash >logmkbathy1.txt  < '+ mk_bathy)
     else:
-        matlab=' /home/server/pi/homes/moghimi/Desktop/work/opt/utils/matlab10b '
+        matlab=' matlab '
         comm='ssh irarum  "cd '+ dirs[0]+';'+matlab+' -nodesktop -nosplash >logasim1.txt  < '+mk_bathy +'; touch bathydone "'
         os.system(comm)
 
@@ -163,7 +164,8 @@ def do_runs_roms(dirs,servers):
                     os.system(comm+'&')   
                     #print comm
                 else:
-                    comm='ssh '+server+'  "cd '+ dirmem+'; '+roms+' <  param.in > runlog ; echo "run comp" &> flagdone "'
+                    comm='ssh '+server+'  "cd '+ dirmem+'; '+roms+' <  param.in > runlog ; echo run_comp > flagdone "'
+                    #print comm 
                     os.system(comm+'&')   
 
                 os.system('sleep 1')
@@ -196,9 +198,9 @@ def do_swan_run(dirs,servers):
                 os.system('ln -sf '+swan         +' '+ dirlist[imem]+'/swan' )
                 os.system('cp -f  '+swan_inp_file+' '+ dirlist[imem]+'/INPUT')
                 #
-                if not real_data:
-                    os.system('rm     '              + dirlist[imem]+'/bnd.spc' )
-                    os.system('cp -rf '+spc_file+'  '+ dirlist[imem]+'/bnd.spc' )
+                #if not real_data:
+                #    os.system('rm     '              + dirlist[imem]+'/bnd.spc' )
+                #    os.system('cp -rf '+spc_file+'  '+ dirlist[imem]+'/bnd.spc' )
                 #
                 comm='ssh '+server+'  "cd ' + dirlist[imem]+'; ./swan > runlog ; touch flagdone "'
                 os.system(comm+'&')    
@@ -305,7 +307,8 @@ def do_assimilate_py (itr, dirs):
     os.system('cp -f ' +scr_dir+'/base_info.py           ' + dirs[5])
     #####################################################################################################
     #os.system('cd    '+dirs[5]+'; python  '+ do_assim_python+'  '+str(itr)+' >>log_pre_assim_cur.txt')
-    comm='ssh stanley "cd  '+ dirs[5]+'; /home/server/pi/homes/moghimi/work/opt/epd/canopy1.1.0.env/User/bin/python -u '+ do_assim_python+'  '+str(itr)+' >> logasim_py.txt; touch assimdone "'
+    comm = 'ssh tirigan  "cd  '+ iirs[5]+'; python -u '+ do_assim_python+'  '+str(itr)+' >> logasim_py.txt; touch assimdone "'
+    #print comm
     os.system(comm)
     flag=dirs[5]+'/assimdone'
     while(not os.path.isfile(flag)):

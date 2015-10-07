@@ -61,7 +61,7 @@ h_tru   = h.copy()
 h_tru[mask]=0.0
 ######################################
 # read prior bathy param
-pnc  = netCDF4.Dataset('../00_perior/prior.nc')
+pnc  = netCDF4.Dataset('../00_prior/prior.nc')
 pncv = pnc.variables
 hpre = pncv['h'][:]
 pnc.close

@@ -57,11 +57,11 @@ hisfile_name  = base_info.hisfile_name
 
 ###############################################
 if base_info.real_data:
-    ref_grd=inp_dir+'/obs/sar/uASAR.nc'
-    time_key='time'
+    ref_grd  = inp_dir+'/obs/sar/uASAR.nc'
+    time_key ='time'
 else:
-    ref_grd=inp_dir+'/obs/syn/syn1nri_his.nc'
-    time_key='ocean_time'
+    ref_grd  = inp_dir+'/obs/syn/syn1nri_his.nc'
+    time_key ='ocean_time'
 ###############################################
 #Cut to smaller region
 i1,i2,j1,j2=pl.loadtxt('param.inp')

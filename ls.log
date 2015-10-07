@@ -1,0 +1,652 @@
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp:
+total 200
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:36 member1001
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:36 member1002
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:36 member1003
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:36 member1004
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:36 member1005
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:36 member1006
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:36 member1007
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:36 member1008
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:36 member1009
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:36 member1010
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:36 member1011
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:36 member1012
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:36 member1013
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:36 member1014
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:36 member1015
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:36 member1016
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:37 member1017
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:37 member1018
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:37 member1019
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:37 member1020
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:37 member1021
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:37 member1022
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:37 member1023
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:37 member1024
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:37 member1025
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:37 member1026
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:37 member1027
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:37 member1028
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:37 member1029
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:37 member1030
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:37 member1031
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:37 member1032
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:37 member1033
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:37 member1034
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:38 member1035
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:38 member1036
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:38 member1037
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:38 member1038
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:38 member1039
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:38 member1040
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:38 member1041
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:38 member1042
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:38 member1043
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:38 member1044
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:38 member1045
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:38 member1046
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:38 member1047
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:38 member1048
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:38 member1049
+drwxr-xr-x 2 moghimi holman 4096 Sep 11 15:38 member1050
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1001:
+total 26364
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:36 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:36 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:36 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:36 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:36 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1001.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:36 nri_avg.nc
+-rw-r--r-- 1 moghimi holman 13721824 Sep 11 15:58 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:58 nri_rst.nc
+-rw-r--r-- 1 moghimi holman    82094 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1002:
+total 25416
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:36 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:36 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:36 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:36 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:36 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1002.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:36 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:53 nri_rst.nc
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:57 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman    72568 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1003:
+total 25420
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:36 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:36 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:36 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:36 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:36 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1003.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:36 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:52 nri_rst.nc
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:55 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman    74920 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1004:
+total 25424
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:36 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:36 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:36 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:36 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:36 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1004.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:36 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:52 nri_rst.nc
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:56 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman    79420 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1005:
+total 26360
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:36 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:36 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:36 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:36 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:36 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1005.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:36 nri_avg.nc
+-rw-r--r-- 1 moghimi holman 13721824 Sep 11 15:58 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:58 nri_rst.nc
+-rw-r--r-- 1 moghimi holman    81170 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1006:
+total 23540
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:36 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:36 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:36 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:36 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:36 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1006.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:36 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:53 nri_rst.nc
+-rw-r--r-- 1 moghimi holman 10851400 Sep 11 15:56 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman    63539 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1007:
+total 26364
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:36 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:36 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:36 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:36 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:36 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1007.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:37 nri_avg.nc
+-rw-r--r-- 1 moghimi holman 13721824 Sep 11 15:58 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:58 nri_rst.nc
+-rw-r--r-- 1 moghimi holman    82010 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1008:
+total 24480
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:36 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:36 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:36 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:36 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:36 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1008.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:37 nri_avg.nc
+-rw-r--r-- 1 moghimi holman 11808208 Sep 11 15:56 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:56 nri_rst.nc
+-rw-r--r-- 1 moghimi holman    71308 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1009:
+total 25424
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:36 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:36 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:36 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:36 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:36 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1009.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:37 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:52 nri_rst.nc
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:56 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman    80078 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1010:
+total 25420
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:36 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:36 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:36 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:36 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:36 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1010.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:37 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:54 nri_rst.nc
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:57 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman    75424 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1011:
+total 25416
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:36 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:36 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:36 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:36 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:36 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1011.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:37 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:56 nri_rst.nc
+-rw-r--r-- 1 moghimi holman    72148 Sep 11 15:58 runlog
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:58 nri_his_0001.nc
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1012:
+total 26360
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:36 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:36 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:36 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:36 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:36 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1012.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:37 nri_avg.nc
+-rw-r--r-- 1 moghimi holman 13721824 Sep 11 15:58 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:58 nri_rst.nc
+-rw-r--r-- 1 moghimi holman    81086 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1013:
+total 26360
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:36 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:36 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:36 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:36 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:36 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1013.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:37 nri_avg.nc
+-rw-r--r-- 1 moghimi holman 13721824 Sep 11 15:58 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:58 nri_rst.nc
+-rw-r--r-- 1 moghimi holman    80834 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1014:
+total 24476
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:36 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:36 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:36 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:36 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:36 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1014.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:37 nri_avg.nc
+-rw-r--r-- 1 moghimi holman 11808208 Sep 11 15:55 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:55 nri_rst.nc
+-rw-r--r-- 1 moghimi holman    66227 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1015:
+total 25420
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:36 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:36 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:36 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:36 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:36 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1015.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:37 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:53 nri_rst.nc
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:56 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman    76180 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1016:
+total 22592
+-rw-r--r-- 1 moghimi holman   64557 Sep 11 15:36 param.in
+lrwxrwxrwx 1 moghimi holman     120 Sep 11 15:36 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman      96 Sep 11 15:36 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman     118 Sep 11 15:36 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman      97 Sep 11 15:36 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1016.nc
+-rw-r--r-- 1 moghimi holman 5109688 Sep 11 15:37 nri_avg.nc
+-rw-r--r-- 1 moghimi holman 9894592 Sep 11 15:56 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman 7980972 Sep 11 15:56 nri_rst.nc
+-rw-r--r-- 1 moghimi holman   49688 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1017:
+total 25420
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:36 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:36 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:36 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:37 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:37 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1017.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:37 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:55 nri_rst.nc
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:57 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman    74332 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1018:
+total 25424
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:37 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:37 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:37 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:37 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:37 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1018.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:37 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:53 nri_rst.nc
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:56 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman    79742 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1019:
+total 25424
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:37 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:37 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:37 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:37 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:37 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1019.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:37 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:53 nri_rst.nc
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:56 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman    79658 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1020:
+total 25420
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:37 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:37 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:37 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:37 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:37 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1020.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:37 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:53 nri_rst.nc
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:56 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman    76180 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1021:
+total 25420
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:37 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:37 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:37 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:37 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:37 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1021.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:37 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:54 nri_rst.nc
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:56 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman    75760 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1022:
+total 25420
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:37 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:37 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:37 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:37 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:37 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1022.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:37 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:54 nri_rst.nc
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:56 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman    75928 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1023:
+total 25420
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:37 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:37 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:37 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:37 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:37 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1023.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:37 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:54 nri_rst.nc
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:57 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman    75340 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1024:
+total 25420
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:37 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:37 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:37 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:37 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:37 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1024.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:37 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:55 nri_rst.nc
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:57 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman    74080 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1025:
+total 25416
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:37 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:37 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:37 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:37 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:37 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1025.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:38 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:55 nri_rst.nc
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:58 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman    72652 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1026:
+total 26360
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:37 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:37 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:37 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:37 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:37 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1026.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:38 nri_avg.nc
+-rw-r--r-- 1 moghimi holman    80582 Sep 11 15:58 runlog
+-rw-r--r-- 1 moghimi holman 13721824 Sep 11 15:58 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:58 nri_rst.nc
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1027:
+total 25424
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:37 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:37 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:37 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:37 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:37 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1027.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:38 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:53 nri_rst.nc
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:56 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman    79742 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1028:
+total 25416
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:37 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:37 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:37 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:37 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:37 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1028.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:38 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:55 nri_rst.nc
+-rw-r--r-- 1 moghimi holman    71812 Sep 11 15:58 runlog
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:58 nri_his_0001.nc
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1029:
+total 25416
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:37 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:37 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:37 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:37 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:37 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1029.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:38 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:55 nri_rst.nc
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:58 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman    72484 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1030:
+total 24480
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:37 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:37 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:37 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:37 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:37 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1030.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:38 nri_avg.nc
+-rw-r--r-- 1 moghimi holman 11808208 Sep 11 15:55 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:55 nri_rst.nc
+-rw-r--r-- 1 moghimi holman    71392 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1031:
+total 25416
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:37 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:37 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:37 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:37 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:37 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1031.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:38 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:55 nri_rst.nc
+-rw-r--r-- 1 moghimi holman    71644 Sep 11 15:58 runlog
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:58 nri_his_0001.nc
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1032:
+total 24476
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:37 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:37 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:37 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:37 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:37 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1032.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:38 nri_avg.nc
+-rw-r--r-- 1 moghimi holman 11808208 Sep 11 15:56 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:56 nri_rst.nc
+-rw-r--r-- 1 moghimi holman    67571 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1033:
+total 24476
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:37 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:37 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:37 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:37 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:37 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1033.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:38 nri_avg.nc
+-rw-r--r-- 1 moghimi holman 11808208 Sep 11 15:56 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:56 nri_rst.nc
+-rw-r--r-- 1 moghimi holman    67067 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1034:
+total 24476
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:37 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:37 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:37 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:37 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:37 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1034.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:38 nri_avg.nc
+-rw-r--r-- 1 moghimi holman 11808208 Sep 11 15:56 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:56 nri_rst.nc
+-rw-r--r-- 1 moghimi holman    66311 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1035:
+total 25420
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:38 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:38 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:38 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:38 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:38 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1035.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:38 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:54 nri_rst.nc
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:57 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman    73744 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1036:
+total 24476
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:38 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:38 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:38 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:38 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:38 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1036.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:38 nri_avg.nc
+-rw-r--r-- 1 moghimi holman 11808208 Sep 11 15:56 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:56 nri_rst.nc
+-rw-r--r-- 1 moghimi holman    66899 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1037:
+total 24476
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:38 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:38 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:38 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:38 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:38 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1037.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:38 nri_avg.nc
+-rw-r--r-- 1 moghimi holman 11808208 Sep 11 15:57 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:57 nri_rst.nc
+-rw-r--r-- 1 moghimi holman    65807 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1038:
+total 24476
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:38 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:38 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:38 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:38 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:38 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1038.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:38 nri_avg.nc
+-rw-r--r-- 1 moghimi holman 11808208 Sep 11 15:56 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:56 nri_rst.nc
+-rw-r--r-- 1 moghimi holman    67067 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1039:
+total 24472
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:38 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:38 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:38 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:38 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:38 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1039.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:38 nri_avg.nc
+-rw-r--r-- 1 moghimi holman 11808208 Sep 11 15:57 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:57 nri_rst.nc
+-rw-r--r-- 1 moghimi holman    65387 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1040:
+total 24476
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:38 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:38 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:38 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:38 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:38 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1040.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:38 nri_avg.nc
+-rw-r--r-- 1 moghimi holman 11808208 Sep 11 15:57 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:57 nri_rst.nc
+-rw-r--r-- 1 moghimi holman    65807 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1041:
+total 24472
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:38 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:38 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:38 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:38 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:38 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1041.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:38 nri_avg.nc
+-rw-r--r-- 1 moghimi holman 11808208 Sep 11 15:57 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:57 nri_rst.nc
+-rw-r--r-- 1 moghimi holman    65303 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1042:
+total 25424
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:38 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:38 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:38 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:38 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:38 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1042.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:39 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:53 nri_rst.nc
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:56 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman    79910 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1043:
+total 25424
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:38 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:38 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:38 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:38 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:38 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1043.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:39 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:54 nri_rst.nc
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:56 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman    79658 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1044:
+total 24472
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:38 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:38 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:38 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:38 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:38 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1044.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:39 nri_avg.nc
+-rw-r--r-- 1 moghimi holman 11808208 Sep 11 15:57 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:57 nri_rst.nc
+-rw-r--r-- 1 moghimi holman    64883 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1045:
+total 25420
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:38 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:38 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:38 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:38 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:38 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1045.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:39 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:54 nri_rst.nc
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:56 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman    76180 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1046:
+total 24472
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:38 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:38 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:38 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:38 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:38 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1046.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:39 nri_avg.nc
+-rw-r--r-- 1 moghimi holman 11808208 Sep 11 15:58 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:58 nri_rst.nc
+-rw-r--r-- 1 moghimi holman    64379 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1047:
+total 24476
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:38 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:38 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:38 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:38 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:38 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1047.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:39 nri_avg.nc
+-rw-r--r-- 1 moghimi holman 11808208 Sep 11 15:57 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:57 nri_rst.nc
+-rw-r--r-- 1 moghimi holman    65723 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1048:
+total 25420
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:38 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:38 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:38 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:38 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:38 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1048.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:39 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:54 nri_rst.nc
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:56 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman    75844 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1049:
+total 24472
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:38 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:38 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:38 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:38 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:38 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1049.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:39 nri_avg.nc
+-rw-r--r-- 1 moghimi holman 11808208 Sep 11 15:57 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:57 nri_rst.nc
+-rw-r--r-- 1 moghimi holman    65303 Sep 11 15:58 runlog
+
+/home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/03_mem_inp/member1050:
+total 25420
+-rw-r--r-- 1 moghimi holman    64557 Sep 11 15:38 param.in
+lrwxrwxrwx 1 moghimi holman      120 Sep 11 15:38 bry.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx 1 moghimi holman       96 Sep 11 15:38 varinfo.dat -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx 1 moghimi holman      118 Sep 11 15:38 initial.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx 1 moghimi holman       97 Sep 11 15:38 grd.nc -> /home/shusin5/users/moghimi/assimilation/tuba_test/tuba_test_syn//run_1002/02_bat_adj/bath1050.nc
+-rw-r--r-- 1 moghimi holman  5109688 Sep 11 15:39 nri_avg.nc
+-rw-r--r-- 1 moghimi holman  7980972 Sep 11 15:54 nri_rst.nc
+-rw-r--r-- 1 moghimi holman 12765016 Sep 11 15:57 nri_his_0001.nc
+-rw-r--r-- 1 moghimi holman    74920 Sep 11 15:58 runlog

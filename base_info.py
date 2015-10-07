@@ -10,32 +10,32 @@ __version__   = "0.1"
 __email__     = "moghimis@gmail.com"
 
 ### 2D   >>>>>
-base_dir = '/home/shusin5/users/moghimi/assimilation/assim_local/z02-real_data_3D_2D_2days-old-data-old-limits-swf-inc/02_main_ebb_2d_m200_obs_cutted/'
+base_dir = '/home/shusin3/shared/assim/tuba_test_syn/'
 run_type    = '2D'
 
 ################################################################################
-inp_dir='/home/server/pi/homes/moghimi/work/00-projs/01-muri/00-progs/cowast/project2/07-assim/scr_generations/set5_python/inp'
-scr_dir='/home/server/pi/homes/moghimi/work/00-projs/01-muri/00-progs/cowast/project2/07-assim/scr_generations/set5_python/pysim'
+inp_dir='/home/nmg/nmg/assimilation/set6_python_test_case/inp/'
+scr_dir='/home/nmg/nmg/assimilation/set6_python_test_case/pysim/'
 ################################################################################
 ###################### BASIC DATA  #############################################
 # number of iterations
-nstart = 0
-nend   = 4
+nstart = 1
+nend   = 3
 ############  List of available servers  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 servers=[#'irarum',
-         'rimus', 
+         #'rimus', 
          #'nanum', 
          #'tirigan', 
-         #'criss',
-         'stanley',
+         'criss',
+         #'stanley',
          'dudu', 
-         'gudea', 
+         #'gudea', 
          #'hablum', 
          #'kurum',
          ]
 
 ###########  Type of operation  (TWIN test or Real data assimilation)   >>>
-real_data  = True    # False: use synthetic data  True: use read observation
+real_data  = False    # False: use synthetic data  True: use read observation
 uv_curv    = False     # to use curvilinear grid to exteract align curve velocity  
 ############  Which model is going to be assimilated >>>>>>>>>>>>>>>>>>>>>>>>
 #Only one of the below options could be TRUE
@@ -47,7 +47,7 @@ asim_wav   = True     # 3. SWAN alone assimilation (change the option in
                       #    but ROMS still needs to run for getting current into 
                       #    SWAN
 ############  In case of assimilating a SWIFT data        >>>>>>>>>>>>>>>>>>>>
-asim_swf  =  True    #assimilate swift data 
+asim_swf  =  False    #assimilate swift data 
 ############  In case of assimilating a second SAR image  >>>>>>>>>>>>>>>>>>>>
 asim_sar2 = False
 ################################################################################
@@ -77,9 +77,9 @@ pre_swf_scr ='04-roms2swift.py'
 ################################################################################
 ####  Generating ensemble memebers (bathymetry)   >>>>>>>>>>>>>>>>>>>>
 #making members bathymetry
-N = 200     #number of members
+N = 5#0     #number of members
 ###########################################################################
-equal_space = False
+equal_space = True
 # perturbation scales
 if equal_space:
     #Radius equal to LixLj times number of grid point perturbations    
@@ -90,15 +90,15 @@ else:
     Lj = 25;
 
 # depth of bumps
-Lz            = 0.5,0.3,0.2
-cov_hh_limit  = 1.0,2.5,                                # consistent with ebb case
+Lz            = 0.5,0.3,0.2,
+cov_hh_limit  = 1.5,1.5,1.5,                                # consistent with ebb case
 
 jump_wav = 2
 jump_cur = 2
 Localize_len = 400
 
 ###########
-increase_sar_err_when_waves = True
+increase_sar_err_when_waves = False
 if increase_sar_err_when_waves:
     wav_cur_data_min_dist = 40  #[m]
     cur_data_err_increase_coef = 5

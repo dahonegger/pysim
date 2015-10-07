@@ -225,7 +225,7 @@ else:
     print '\n\n >>>  experiment_spc is True >>>>> it should be False by default!'
     print '         >>>>>>>> ******* this experimental spc is taking for swan  ****** <<<<<<'
     print '         >>>>>>>> *******  consider  experiment_spc=False  ???      ****** <<<<<<'
-    os.system('cp -rf '+spc_file+'  '+dirout+'/bnd.spc' )
+    os.system('ln -sf '+spc_file+'  '+dirout+'/bnd.spc' )
     print ' global experiment_spc  \n',spc_file
 ############################################
 

@@ -87,7 +87,7 @@ if(type1==1)
     [x,y]=meshgrid(x,y);
     for n=1:N
         disp(n) 
-        mat2roms(x,y,dh(:,:,n),[out_bathy  num2str(1000+n) '.nc'],0);
+        mat2roms(x,y,h(:,:,n),[out_bathy  num2str(1000+n) '.nc'],0);
     end
 else
     grdfile='nri_curv_grid.nc'

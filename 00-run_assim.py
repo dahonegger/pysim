@@ -138,7 +138,6 @@ mk_bathy    = base_info.mk_bathy
 adj_bathy   = base_info.adj_bathy
 do_run      = base_info.do_run        
 adj_mem     = base_info.adj_mem
-do_assim_matlab    = base_info.do_assim_matlab
 ############################################
 do_pre_assim_sar = base_info.do_pre_assim_sar
 do_pre_assim_wav = base_info.do_pre_assim_wav
@@ -162,7 +161,6 @@ logf('mk_bathy',mk_bathy ,logfile)
 logf('adj_bathy',adj_bathy ,logfile)
 logf('do_run',do_run ,logfile)
 logf('adj_mem',adj_mem ,logfile)
-logf('do_assim_matlab',do_assim_matlab ,logfile)
 logf('mat2prior',mat2prior ,logfile)
 logf('pre_wav_scr',pre_wav_scr ,logfile)
 logf('adj_wav_scr',  adj_wav_scr ,logfile)
@@ -259,6 +257,7 @@ if __name__ == '__main__':
                 logf('assim obs file ',obs_flood ,logfile)
 
             make_bathy(dirs,N,Li,Lj,dep_ij,equal_space)
+            #sys.exit()
             bathy_adj(dirs,cov_hh_limit_ij)
             #sys.exit()
             ##############################################################
@@ -375,6 +374,7 @@ do_pre_assim_cur(itr, dirs)
 
 pre_swan_run(dirs)
 do_swan_run (dirs,servers)
+next=check_runs(dirs[9],list=None)
 do_swan_adj(dirs)
 do_pre_assim_wave(itr, dirs)
 

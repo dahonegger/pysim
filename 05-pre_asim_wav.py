@@ -60,7 +60,7 @@ run_id   = '/run_'+str(1000+itr)
 inp_dir  = base_dir + '/inp/'
 #### Funcs
 ##   interpolation
-methodi='tri'
+methodi='csa'
 if methodi=='csa':
     import octant.csa as csa
 elif methodi=='tri':
@@ -188,7 +188,7 @@ if real_wave:
         ywd     = ywd   [  ::kyy,::kxx]
         fdwd    = fdwd  [:,::kyy,::kxx]
         kdwd    = kdwd  [:,::kyy,::kxx]
-        dirwd   = dirw  [:,::kyy,::kxx]
+        dirwd   = dirwd [:,::kyy,::kxx]
         kd_err  = kd_err[:,::kyy,::kxx]   
     ###    
     nkw,nyw,nxw = fdwd.shape
