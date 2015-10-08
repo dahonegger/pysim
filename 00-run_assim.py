@@ -290,7 +290,8 @@ if __name__ == '__main__':
             mk_new_prior(dirs)
 
 logf(' > Finish this part ',' With Success < ' ,logfile)
-#sys.exit() #  
+
+sys.exit() #  
 for itr in [0,1,2,3,4,5]:
     print 'Start forward run > ', itr,'  from > ', nend
     base = base_dir+'/run_'+str(1000+itr)+'/'

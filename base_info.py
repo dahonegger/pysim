@@ -10,7 +10,7 @@ __version__   = "0.1"
 __email__     = "moghimis@gmail.com"
 
 ### 2D   >>>>>
-base_dir = '/home/shusin3/shared/assim/tuba_test_syn/'
+base_dir = '/home/shusin3/shared/assim/tuba_test_syn2/'
 run_type    = '2D'
 
 ################################################################################
@@ -19,7 +19,7 @@ scr_dir='/home/nmg/nmg/assimilation/set6_python_test_case/pysim/'
 ################################################################################
 ###################### BASIC DATA  #############################################
 # number of iterations
-nstart = 1
+nstart = 0 
 nend   = 3
 ############  List of available servers  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 servers=[#'irarum',
@@ -36,11 +36,10 @@ servers=[#'irarum',
 
 ###########  Type of operation  (TWIN test or Real data assimilation)   >>>
 real_data  = False    # False: use synthetic data  True: use read observation
-uv_curv    = False     # to use curvilinear grid to exteract align curve velocity  
+uv_curv    = False     # always false <<<<<<<<  to use curvilinear grid to exteract align curve velocity  
 ############  Which model is going to be assimilated >>>>>>>>>>>>>>>>>>>>>>>>
 #Only one of the below options could be TRUE
 #Here starts different arrangements
-#roms_swan = False    # 1. ROMS ans SWAN assimilation
 asim_sar   = True     # 2. ROMS alone assimilation (waves=False)
 asim_wav   = True     # 3. SWAN alone assimilation (change the option in
                       #    matlab code to not include velocity in assimilation
@@ -49,7 +48,7 @@ asim_wav   = True     # 3. SWAN alone assimilation (change the option in
 ############  In case of assimilating a SWIFT data        >>>>>>>>>>>>>>>>>>>>
 asim_swf  =  False    #assimilate swift data 
 ############  In case of assimilating a second SAR image  >>>>>>>>>>>>>>>>>>>>
-asim_sar2 = False
+asim_sar2 = False    # always False <<<<<< not working at this point
 ################################################################################
 
 ######  Name of the scripts will be used by main script to treat the files  ####
@@ -93,9 +92,9 @@ else:
 Lz            = 0.5,0.3,0.2,
 cov_hh_limit  = 1.5,1.5,1.5,                                # consistent with ebb case
 
-jump_wav = 2
-jump_cur = 2
-Localize_len = 400
+jump_wav = 2  #jump over data points (every other data points for j=2)
+jump_cur = 2 
+Localize_len = 400   # in meter
 
 ###########
 increase_sar_err_when_waves = False
@@ -129,7 +128,7 @@ else:
     obs_ebb   = 'obs_syn1nri_ebb.nc'
     sar_err_reduction   = 1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
     radar_err_reduction = 1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-    swift_err_reduction = 0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05
+    swift_err_reduction = 0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05   # this makes swift error 5 cm/s
 
     ############################################################
     
