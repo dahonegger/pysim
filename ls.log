@@ -1,70 +1,166 @@
-/home/shusin3/shared/assim/tuba_test_syn//run_1003/03_mem_inp:
-total 40
-drwxrwxr-x+ 2 nmg holman 4096 Oct  7 13:17 member1004
-drwxrwxr-x+ 2 nmg holman 4096 Oct  7 13:17 member1005
-drwxrwxr-x+ 2 nmg holman 4096 Oct  7 13:51 member1002
-drwxrwxr-x+ 2 nmg holman 4096 Oct  7 13:51 member1001
-drwxrwxr-x+ 2 nmg holman 4096 Oct  7 13:51 member1003
+/home/shusin3/shared/assim/tuba_test_syn2//run_1003/04_wav_adj:
+total 68
+-rw-r--r--  1 nmg holman 6521 Oct  8 20:23 base_info.py
+-rw-r--r--  1 nmg holman 7602 Oct  8 20:23 04-roms2swan.py
+-rw-rw-r--  1 nmg holman  532 Oct  8 20:23 log_04-roms2swan.py.txt
+-rw-r--r--  1 nmg holman 4217 Oct  8 20:23 base_info.pyc
+drwxrwxr-x+ 2 nmg holman 4096 Oct  8 20:31 member1002
+drwxrwxr-x+ 2 nmg holman 4096 Oct  8 20:31 member1001
+drwxrwxr-x+ 2 nmg holman 4096 Oct  8 20:33 member1003
+drwxrwxr-x+ 2 nmg holman 4096 Oct  8 20:33 member1004
+drwxrwxr-x+ 2 nmg holman 4096 Oct  8 20:33 member1005
 
-/home/shusin3/shared/assim/tuba_test_syn//run_1003/03_mem_inp/member1004:
-total 59448
--rwxrwxr-x+ 1 nmg holman    64557 Oct  7 13:17 param.in
-lrwxrwxrwx  1 nmg holman       72 Oct  7 13:17 varinfo.dat -> /home/shusin3/shared/assim/tuba_test_syn//inp/const//roms_2d/varinfo.dat
-lrwxrwxrwx  1 nmg holman       96 Oct  7 13:17 bry.nc -> /home/shusin3/shared/assim/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
-lrwxrwxrwx  1 nmg holman       94 Oct  7 13:17 initial.nc -> /home/shusin3/shared/assim/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
-lrwxrwxrwx  1 nmg holman       73 Oct  7 13:17 grd.nc -> /home/shusin3/shared/assim/tuba_test_syn//run_1003/02_bat_adj/bath1004.nc
--rwxrwxr-x+ 1 nmg holman  5109688 Oct  7 13:18 nri_avg.nc
--rwxrwxr-x+ 1 nmg holman  7980972 Oct  7 13:56 nri_rst.nc
--rwxrwxr-x+ 1 nmg holman 47210104 Oct  7 13:56 nri_his_0001.nc
--rwxrwxr-x+ 1 nmg holman   379628 Oct  7 13:57 runlog
+/home/shusin3/shared/assim/tuba_test_syn2//run_1003/04_wav_adj/member1002:
+total 13192
+-rw-rw-r--  1 nmg holman  280000 Oct  8 20:23 wlevel.bot
+-rw-rw-r--  1 nmg holman  793800 Oct  8 20:23 local_rect_coords.bot
+-rw-rw-r--  1 nmg holman  569126 Oct  8 20:23 current.bot
+lrwxrwxrwx  1 nmg holman     105 Oct  8 20:23 bnd.spc -> /home/shusin3/shared/assim/tuba_test_syn2//inp/obs_wave/syn/wave_limit_test/spc_inner/local20m_hs1_t7.spc
+-rw-rw-r--  1 nmg holman  297787 Oct  8 20:23 bathy.bot
+-rw-rw-r--  1 nmg holman     935 Oct  8 20:23 swaninit
+lrwxrwxrwx  1 nmg holman      67 Oct  8 20:23 swan -> /home/shusin3/shared/assim/tuba_test_syn2//inp/const//swan/swan_ser
+-rwxrwxr-x  1 nmg holman    1982 Oct  8 20:23 INPUT
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 yp.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 xp.blkout
+-rw-rw-r--  1 nmg holman 1200400 Oct  8 20:31 wp.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 wlen.blkout
+-rw-rw-r--  1 nmg holman 1200400 Oct  8 20:31 vel.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 ubot.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 tm01.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 swh.blkout
+-rw-rw-r--  1 nmg holman    1828 Oct  8 20:31 runlog
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 rtp.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 qb.blkout
+-rw-rw-r--  1 nmg holman   12537 Oct  8 20:31 PRINT
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 pdir.blkout
+-rw-rw-r--  1 nmg holman      25 Oct  8 20:31 norm_end
+-rw-rw-r--  1 nmg holman 1200400 Oct  8 20:31 force.blkout
+-rw-rw-r--  1 nmg holman       0 Oct  8 20:31 flagdone
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 dissip.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 dir.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 depth.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 bottom.blkout
 
-/home/shusin3/shared/assim/tuba_test_syn//run_1003/03_mem_inp/member1005:
-total 59440
--rwxrwxr-x+ 1 nmg holman    64557 Oct  7 13:17 param.in
-lrwxrwxrwx  1 nmg holman       72 Oct  7 13:17 varinfo.dat -> /home/shusin3/shared/assim/tuba_test_syn//inp/const//roms_2d/varinfo.dat
-lrwxrwxrwx  1 nmg holman       96 Oct  7 13:17 bry.nc -> /home/shusin3/shared/assim/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
-lrwxrwxrwx  1 nmg holman       94 Oct  7 13:17 initial.nc -> /home/shusin3/shared/assim/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
-lrwxrwxrwx  1 nmg holman       73 Oct  7 13:17 grd.nc -> /home/shusin3/shared/assim/tuba_test_syn//run_1003/02_bat_adj/bath1005.nc
--rwxrwxr-x+ 1 nmg holman  5109688 Oct  7 13:18 nri_avg.nc
--rwxrwxr-x+ 1 nmg holman  7980972 Oct  7 13:56 nri_rst.nc
--rwxrwxr-x+ 1 nmg holman 47210104 Oct  7 13:57 nri_his_0001.nc
--rwxrwxr-x+ 1 nmg holman   371866 Oct  7 13:57 runlog
+/home/shusin3/shared/assim/tuba_test_syn2//run_1003/04_wav_adj/member1001:
+total 13188
+-rw-rw-r--  1 nmg holman  280000 Oct  8 20:23 wlevel.bot
+-rw-rw-r--  1 nmg holman  569064 Oct  8 20:23 current.bot
+-rw-rw-r--  1 nmg holman  297716 Oct  8 20:23 bathy.bot
+-rw-rw-r--  1 nmg holman  793800 Oct  8 20:23 local_rect_coords.bot
+lrwxrwxrwx  1 nmg holman     105 Oct  8 20:23 bnd.spc -> /home/shusin3/shared/assim/tuba_test_syn2//inp/obs_wave/syn/wave_limit_test/spc_inner/local20m_hs1_t7.spc
+lrwxrwxrwx  1 nmg holman      67 Oct  8 20:23 swan -> /home/shusin3/shared/assim/tuba_test_syn2//inp/const//swan/swan_ser
+-rwxrwxr-x  1 nmg holman    1982 Oct  8 20:23 INPUT
+-rw-rw-r--  1 nmg holman     935 Oct  8 20:23 swaninit
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 yp.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 xp.blkout
+-rw-rw-r--  1 nmg holman 1200400 Oct  8 20:31 wp.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 wlen.blkout
+-rw-rw-r--  1 nmg holman 1200400 Oct  8 20:31 vel.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 ubot.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 tm01.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 swh.blkout
+-rw-rw-r--  1 nmg holman    1828 Oct  8 20:31 runlog
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 rtp.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 qb.blkout
+-rw-rw-r--  1 nmg holman   12272 Oct  8 20:31 PRINT
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 pdir.blkout
+-rw-rw-r--  1 nmg holman      25 Oct  8 20:31 norm_end
+-rw-rw-r--  1 nmg holman 1200400 Oct  8 20:31 force.blkout
+-rw-rw-r--  1 nmg holman       0 Oct  8 20:31 flagdone
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 dissip.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 dir.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 depth.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:31 bottom.blkout
 
-/home/shusin3/shared/assim/tuba_test_syn//run_1003/03_mem_inp/member1002:
-total 64160
--rwxrwxr-x+ 1 nmg holman    64557 Oct  7 13:17 param.in
-lrwxrwxrwx  1 nmg holman       96 Oct  7 13:17 bry.nc -> /home/shusin3/shared/assim/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
-lrwxrwxrwx  1 nmg holman       72 Oct  7 13:17 varinfo.dat -> /home/shusin3/shared/assim/tuba_test_syn//inp/const//roms_2d/varinfo.dat
-lrwxrwxrwx  1 nmg holman       94 Oct  7 13:17 initial.nc -> /home/shusin3/shared/assim/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
-lrwxrwxrwx  1 nmg holman       73 Oct  7 13:17 grd.nc -> /home/shusin3/shared/assim/tuba_test_syn//run_1003/02_bat_adj/bath1002.nc
--rwxrwxr-x+ 1 nmg holman  5109688 Oct  7 13:17 nri_avg.nc
--rwxrwxr-x+ 1 nmg holman   413346 Oct  7 13:51 runlog
--rwxrwxr-x+ 1 nmg holman  7980972 Oct  7 13:51 nri_rst.nc
--rwxrwxr-x+ 1 nmg holman 51994144 Oct  7 13:51 nri_his_0001.nc
--rw-rw-r--  1 nmg holman        9 Oct  7 13:51 flagdone
+/home/shusin3/shared/assim/tuba_test_syn2//run_1003/04_wav_adj/member1003:
+total 13192
+-rw-rw-r--  1 nmg holman  280000 Oct  8 20:23 wlevel.bot
+-rw-rw-r--  1 nmg holman  297742 Oct  8 20:23 bathy.bot
+-rw-rw-r--  1 nmg holman  793800 Oct  8 20:23 local_rect_coords.bot
+-rw-rw-r--  1 nmg holman  569130 Oct  8 20:23 current.bot
+lrwxrwxrwx  1 nmg holman     105 Oct  8 20:23 bnd.spc -> /home/shusin3/shared/assim/tuba_test_syn2//inp/obs_wave/syn/wave_limit_test/spc_inner/local20m_hs1_t7.spc
+-rw-rw-r--  1 nmg holman     935 Oct  8 20:23 swaninit
+lrwxrwxrwx  1 nmg holman      67 Oct  8 20:23 swan -> /home/shusin3/shared/assim/tuba_test_syn2//inp/const//swan/swan_ser
+-rwxrwxr-x  1 nmg holman    1982 Oct  8 20:23 INPUT
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 yp.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 xp.blkout
+-rw-rw-r--  1 nmg holman 1200400 Oct  8 20:33 wp.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 wlen.blkout
+-rw-rw-r--  1 nmg holman 1200400 Oct  8 20:33 vel.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 ubot.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 tm01.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 swh.blkout
+-rw-rw-r--  1 nmg holman    1993 Oct  8 20:33 runlog
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 rtp.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 qb.blkout
+-rw-rw-r--  1 nmg holman   12331 Oct  8 20:33 PRINT
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 pdir.blkout
+-rw-rw-r--  1 nmg holman      25 Oct  8 20:33 norm_end
+-rw-rw-r--  1 nmg holman 1200400 Oct  8 20:33 force.blkout
+-rw-rw-r--  1 nmg holman       0 Oct  8 20:33 flagdone
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 dissip.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 dir.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 depth.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 bottom.blkout
 
-/home/shusin3/shared/assim/tuba_test_syn//run_1003/03_mem_inp/member1001:
-total 64160
-lrwxrwxrwx  1 nmg holman       72 Oct  7 13:17 varinfo.dat -> /home/shusin3/shared/assim/tuba_test_syn//inp/const//roms_2d/varinfo.dat
--rwxrwxr-x+ 1 nmg holman    64557 Oct  7 13:17 param.in
-lrwxrwxrwx  1 nmg holman       96 Oct  7 13:17 bry.nc -> /home/shusin3/shared/assim/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
-lrwxrwxrwx  1 nmg holman       94 Oct  7 13:17 initial.nc -> /home/shusin3/shared/assim/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
-lrwxrwxrwx  1 nmg holman       73 Oct  7 13:17 grd.nc -> /home/shusin3/shared/assim/tuba_test_syn//run_1003/02_bat_adj/bath1001.nc
--rwxrwxr-x+ 1 nmg holman  5109688 Oct  7 13:17 nri_avg.nc
--rwxrwxr-x+ 1 nmg holman   413346 Oct  7 13:51 runlog
--rwxrwxr-x+ 1 nmg holman  7980972 Oct  7 13:51 nri_rst.nc
--rwxrwxr-x+ 1 nmg holman 51994144 Oct  7 13:51 nri_his_0001.nc
--rw-rw-r--  1 nmg holman        9 Oct  7 13:51 flagdone
+/home/shusin3/shared/assim/tuba_test_syn2//run_1003/04_wav_adj/member1004:
+total 13192
+-rw-rw-r--  1 nmg holman  280000 Oct  8 20:23 wlevel.bot
+-rw-rw-r--  1 nmg holman  793800 Oct  8 20:23 local_rect_coords.bot
+-rw-rw-r--  1 nmg holman  569075 Oct  8 20:23 current.bot
+lrwxrwxrwx  1 nmg holman     105 Oct  8 20:23 bnd.spc -> /home/shusin3/shared/assim/tuba_test_syn2//inp/obs_wave/syn/wave_limit_test/spc_inner/local20m_hs1_t7.spc
+-rw-rw-r--  1 nmg holman  297810 Oct  8 20:23 bathy.bot
+-rw-rw-r--  1 nmg holman     935 Oct  8 20:23 swaninit
+lrwxrwxrwx  1 nmg holman      67 Oct  8 20:23 swan -> /home/shusin3/shared/assim/tuba_test_syn2//inp/const//swan/swan_ser
+-rwxrwxr-x  1 nmg holman    1982 Oct  8 20:23 INPUT
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 yp.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 xp.blkout
+-rw-rw-r--  1 nmg holman 1200400 Oct  8 20:33 wp.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 wlen.blkout
+-rw-rw-r--  1 nmg holman 1200400 Oct  8 20:33 vel.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 ubot.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 tm01.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 swh.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 rtp.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 qb.blkout
+-rw-rw-r--  1 nmg holman   12808 Oct  8 20:33 PRINT
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 pdir.blkout
+-rw-rw-r--  1 nmg holman      25 Oct  8 20:33 norm_end
+-rw-rw-r--  1 nmg holman 1200400 Oct  8 20:33 force.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 dissip.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 dir.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 depth.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 bottom.blkout
+-rw-rw-r--  1 nmg holman    1993 Oct  8 20:33 runlog
+-rw-rw-r--  1 nmg holman       0 Oct  8 20:33 flagdone
 
-/home/shusin3/shared/assim/tuba_test_syn//run_1003/03_mem_inp/member1003:
-total 64160
--rwxrwxr-x+ 1 nmg holman    64557 Oct  7 13:17 param.in
-lrwxrwxrwx  1 nmg holman       96 Oct  7 13:17 bry.nc -> /home/shusin3/shared/assim/tuba_test_syn//inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
-lrwxrwxrwx  1 nmg holman       72 Oct  7 13:17 varinfo.dat -> /home/shusin3/shared/assim/tuba_test_syn//inp/const//roms_2d/varinfo.dat
-lrwxrwxrwx  1 nmg holman       94 Oct  7 13:17 initial.nc -> /home/shusin3/shared/assim/tuba_test_syn//inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
-lrwxrwxrwx  1 nmg holman       73 Oct  7 13:17 grd.nc -> /home/shusin3/shared/assim/tuba_test_syn//run_1003/02_bat_adj/bath1003.nc
--rwxrwxr-x+ 1 nmg holman  5109688 Oct  7 13:18 nri_avg.nc
--rwxrwxr-x+ 1 nmg holman   413346 Oct  7 13:51 runlog
--rwxrwxr-x+ 1 nmg holman  7980972 Oct  7 13:51 nri_rst.nc
--rwxrwxr-x+ 1 nmg holman 51994144 Oct  7 13:51 nri_his_0001.nc
--rw-rw-r--  1 nmg holman        9 Oct  7 13:51 flagdone
+/home/shusin3/shared/assim/tuba_test_syn2//run_1003/04_wav_adj/member1005:
+total 13192
+-rw-rw-r--  1 nmg holman  280000 Oct  8 20:23 wlevel.bot
+-rw-rw-r--  1 nmg holman  793800 Oct  8 20:23 local_rect_coords.bot
+-rw-rw-r--  1 nmg holman  569002 Oct  8 20:23 current.bot
+lrwxrwxrwx  1 nmg holman     105 Oct  8 20:23 bnd.spc -> /home/shusin3/shared/assim/tuba_test_syn2//inp/obs_wave/syn/wave_limit_test/spc_inner/local20m_hs1_t7.spc
+-rw-rw-r--  1 nmg holman  297724 Oct  8 20:23 bathy.bot
+lrwxrwxrwx  1 nmg holman      67 Oct  8 20:24 swan -> /home/shusin3/shared/assim/tuba_test_syn2//inp/const//swan/swan_ser
+-rwxrwxr-x  1 nmg holman    1982 Oct  8 20:24 INPUT
+-rw-rw-r--  1 nmg holman     935 Oct  8 20:24 swaninit
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 yp.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 xp.blkout
+-rw-rw-r--  1 nmg holman 1200400 Oct  8 20:33 wp.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 wlen.blkout
+-rw-rw-r--  1 nmg holman 1200400 Oct  8 20:33 vel.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 ubot.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 tm01.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 swh.blkout
+-rw-rw-r--  1 nmg holman    1993 Oct  8 20:33 runlog
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 rtp.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 qb.blkout
+-rw-rw-r--  1 nmg holman   12808 Oct  8 20:33 PRINT
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 pdir.blkout
+-rw-rw-r--  1 nmg holman      25 Oct  8 20:33 norm_end
+-rw-rw-r--  1 nmg holman 1200400 Oct  8 20:33 force.blkout
+-rw-rw-r--  1 nmg holman       0 Oct  8 20:33 flagdone
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 dissip.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 dir.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 depth.blkout
+-rw-rw-r--  1 nmg holman  600200 Oct  8 20:33 bottom.blkout
