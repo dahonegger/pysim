@@ -196,6 +196,7 @@ if not real_data:
 ####### Main ################
 # sys.exit()
 
+## ADDING A COMMENT
 for itr in range(nstart,nend+1):
 	logf('**** > Start iteration > ',str(itr)+'  from > '+str(nend) ,logfile)
 	# check if we need to create new directory structure
