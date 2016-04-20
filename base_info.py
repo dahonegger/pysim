@@ -18,6 +18,8 @@ inp_dir='/home/nmg/nmg/assimilation/set6_python_test_case/inp'
 scr_dir='/home/nmg/nmg/assimilation/set6_python_test_case/pysimHonegger'
 ################################################################################
 ###################### BASIC DATA  #############################################
+# reassimilate previous runs
+reassim = True
 # number of iterations
 nstart = 0 
 nend   = 1
