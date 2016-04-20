@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-Main functions for handeling assimilation
+Main functions for handling assimilation
 """
 __author__    = "Saeed Moghimi"
 __copyright__ = "Copyright 2015, Oregon State University"
@@ -12,6 +12,7 @@ __email__     = "moghimis@gmail.com"
 import sys
 import glob
 ##########################################
+# Clean up old runs and import/run base_info.py
 try:
     os.system('rm base_info.pyc'  )
 except:
@@ -35,7 +36,7 @@ from __init__ import *
 #print str1
 #############################################
 
-def create_dirs(itr,base):
+def create_dirs(itr,base): # Creates output directories for each assimilation iteration
     logf('create_dirs()',  base ,logfile)
     dirs=[]
     dirs.append(base+ '00_prior')
@@ -63,7 +64,7 @@ def create_dirs(itr,base):
     os.system('cp -fr ' +scr_dir+'/py      ' +base+'/scr/py')
     return dirs
 
-def make_bathy(dirs,nmember,len_i,len_j,dep_ij,equal_space):
+def make_bathy(dirs,nmember,len_i,len_j,dep_ij,equal_space): # Run the mk_bathy() script (currently in matlab)
     logf('>>>>> ',datetime.datetime.now().isoformat() ,logfile)
     logf('make_bathy()','  > run matlab for generating new set of bathy files ..' ,logfile)
     input_file=dirs[0]+'/input_param.txt'
@@ -91,6 +92,34 @@ def make_bathy(dirs,nmember,len_i,len_j,dep_ij,equal_space):
         matlab=' matlab '
         comm='ssh irarum  "cd '+ dirs[0]+';'+matlab+' -nodesktop -nosplash >logasim1.txt  < '+mk_bathy +'; touch bathydone "'
         os.system(comm)
+
+def make_pybathy(dirs,nmember,len_i,len_j,dep_ij,equal_space): 
+    logf('>>>>> ',datetime.datetime.now().isoformat() ,logfile)
+    logf('make_bathy()','  > run matlab for generating new set of bathy files ..' ,logfile)
+    input_file=dirs[0]+'/input_param.txt'
+    filein=open(input_file,'w')
+    filein.write(scr_dir   +'\n')
+    filein.write(local_inp +'\n')  
+    filein.write(str(nmember)+'\n')  #'Num_members_N '
+    filein.write(str(len_i)  +'\n')  #'Lengthi_Li    '
+    filein.write(str(len_j)  +'\n')  #'Lengthj_Lj    '
+    filein.write(str(dep_ij) +'\n')  #'Depthz_Lz     '
+    if equal_space:  
+        filein.write('1\n')     
+    else:
+        sys.exit('  >>> Pyhon bathy is not accepting curvilinear steretching of bottom features only works for equal_space=True')    
+    filein.close()
+    
+    matlab=' matlab '
+    comm='ssh irarum  "cd '+ dirs[0]+';'+matlab+' -nodesktop -nosplash >logasim1.txt  < '+mk_bathy +'; touch bathydone "'
+    os.system(comm)
+
+
+
+
+
+
+
 
 def bathy_adj(dirs,cov_hh_limit_ij):
     logf('>>>>> ',datetime.datetime.now().isoformat() ,logfile)
@@ -299,7 +328,7 @@ def do_pre_assim_swift(itr, dirs):
     os.system('cd      '+dirs[10]+'; python -u '+ do_pre_assim_swf+
               '  '+str(itr)+' >>log_pre_assim_swf.txt')
 
-def do_assimilate_py (itr, dirs):
+def do_assimilate_py(itr, dirs):
     logf('>>>>> ',datetime.datetime.now().isoformat() ,logfile)
     logf('do_assimilate_py()','  > run python assimilation routine ..' ,logfile)
     os.system('cp -rf '+scr_dir+'/py                     ' + dirs[5])

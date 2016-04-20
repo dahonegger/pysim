@@ -221,7 +221,7 @@ if real_wave:
     kerrmax = np.ma.masked_where(np.isnan(fdmax),kerrmax)
     maskw   = fdmax.mask
     
-    #Matlab like fllaten for comparison
+    #Matlab like flaten for comparison
     xwcdf  = xwd.flatten(1)
     maskwf = maskw.flatten(1)
     xwcd   = xwcdf[~maskwf]
@@ -239,7 +239,7 @@ if real_wave:
     skwdf   = kerrmax.flatten(1)
     skwd    = skwdf[~maskwf]
 else:
-    ###synthatic
+    ###synthetic
     ncf_wdata=data_dir+'obs_wave/syn/wav_syn_obs.nc'
     print 'SYN data obs file name > ', ncf_wdata
     nc_wdata=netCDF4.Dataset(ncf_wdata)

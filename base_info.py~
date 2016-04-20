@@ -10,7 +10,7 @@ __version__   = "0.1"
 __email__     = "moghimis@gmail.com"
 
 ### 2D   >>>>>
-base_dir = '/home/shusin3/shared/assim/dah_test_indentation'
+base_dir = '/home/shusin3/shared/assim/dah_test2_saeed2'
 run_type    = '2D'
 
 ################################################################################

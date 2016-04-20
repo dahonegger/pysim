@@ -4,7 +4,7 @@ from __future__ import division
 """
  This script intended to be the main assimilation script
     NEED TO CHECK:
-    > 1. Division by numbers 4/5 check not to devide 
+    > 1. Division by numbers 4/5 check not to divide 
     > 2. check cos and sin for degree or radian
     > 3. 
 """
@@ -209,26 +209,26 @@ if assim_cur:
         allmeas[field] = cmeas
 
 
-if base_info.sar_const_err is not None:
-    print '    > SAR const err =', base_info.sar_const_err
-    allmeas['u'].s =  base_info.sar_const_err * np.ones_like(allmeas['u'].s)
-    allmeas['v'].s =  base_info.sar_const_err * np.ones_like(allmeas['v'].s)
+    if base_info.sar_const_err is not None:
+        print '    > SAR const err =', base_info.sar_const_err
+        allmeas['u'].s =  base_info.sar_const_err * np.ones_like(allmeas['u'].s)
+        allmeas['v'].s =  base_info.sar_const_err * np.ones_like(allmeas['v'].s)
 
-####################################################################################
-# #SAR err correction when rad data is close
-# #the idea is to increase sar error to decreas its effects when we have wave data close
-if base_info.increase_sar_err_when_waves and assim_cur and assim_wav:
-    print '    > Increase SAR err close to Wav data points  dist=',\
-     base_info.wav_cur_data_min_dist,'   Coef= ', base_info.cur_data_err_increase_coef
-    for isar in range(len(allmeas['u'].x)):
-        dist2  = np.sqrt ( (allmeas['k'].x - allmeas['u'].x[isar])**2+\
+    ####################################################################################
+    # #SAR err correction when rad data is close
+    # #the idea is to increase sar error to decreas its effects when we have wave data close
+    if base_info.increase_sar_err_when_waves and assim_cur and assim_wav:
+        print '    > Increase SAR err close to Wav data points  dist=',\
+        base_info.wav_cur_data_min_dist,'   Coef= ', base_info.cur_data_err_increase_coef
+        for isar in range(len(allmeas['u'].x)):
+            dist2  = np.sqrt ( (allmeas['k'].x - allmeas['u'].x[isar])**2+\
                            (allmeas['k'].y - allmeas['u'].y[isar])**2  )
-        dist_lim = base_info.wav_cur_data_min_dist
-        coef     = base_info.cur_data_err_increase_coef
-        dist2_min = max(dist2.min(),5)
-        if dist2_min < dist_lim :
-             allmeas['u'].s[isar] = allmeas['u'].s[isar] * coef * dist_lim  / dist2_min
-             allmeas['v'].s[isar] = allmeas['v'].s[isar] * coef * dist_lim  / dist2_min
+            dist_lim = base_info.wav_cur_data_min_dist
+            coef     = base_info.cur_data_err_increase_coef
+            dist2_min = max(dist2.min(),5)
+            if dist2_min < dist_lim :
+               allmeas['u'].s[isar] = allmeas['u'].s[isar] * coef * dist_lim  / dist2_min
+               allmeas['v'].s[isar] = allmeas['v'].s[isar] * coef * dist_lim  / dist2_min
 ####################################################################################
 ###
 cur_member_dir = base_dir+run_id+'/04_mem_adj/'
