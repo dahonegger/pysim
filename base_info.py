@@ -10,7 +10,11 @@ __version__   = "0.1"
 __email__     = "moghimis@gmail.com"
 
 ### 2D   >>>>>
+<<<<<<< HEAD
 base_dir = '/home/shusin3/shared/assim/dah_test_indentation'
+=======
+base_dir = '/home/shusin3/shared/assim/dah_test2_saeed2'
+>>>>>>> 074ad46da8c0e9a81ef6dd8a9a4411f69119db59
 run_type    = '2D'
 
 ################################################################################
@@ -22,7 +26,11 @@ scr_dir='/home/nmg/nmg/assimilation/set6_python_test_case/pysimHonegger'
 reassim = True
 # number of iterations
 nstart = 0 
+<<<<<<< HEAD
 nend   = 0
+=======
+nend   = 1
+>>>>>>> 074ad46da8c0e9a81ef6dd8a9a4411f69119db59
 ############  List of available servers  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 servers=[#'irarum',
          #'rimus', 
