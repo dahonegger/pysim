@@ -196,8 +196,12 @@ if not real_data:
 ####### Main ################
 # sys.exit()
 
-## ADDING A COMMENT
-## ADDING A SECOND COMMENT
+## THIS IS WHERE PSEUDOCODE GOES:
+# if reassim:
+	# do important things
+# else:
+	# run the loop below
+	
 for itr in range(nstart,nend+1):
 	logf('**** > Start iteration > ',str(itr)+'  from > '+str(nend) ,logfile)
 	# check if we need to create new directory structure
