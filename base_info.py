@@ -19,7 +19,7 @@ scr_dir='/home/nmg/nmg/assimilation/set6_python_test_case/pysimHonegger'
 ################################################################################
 ###################### BASIC DATA  #############################################
 # reassimilate previous runs
-reassim = True
+reassim = False
 # number of iterations
 nstart = 0 
 nend   = 0

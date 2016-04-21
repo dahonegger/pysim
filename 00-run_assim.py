@@ -199,9 +199,9 @@ if not real_data:
 ## THIS IS WHERE PSEUDOCODE GOES:
 newflag = True
 if reassim:
-    print "reassim flag is true"
+    #print "reassim flag is true"
 else:
-    print "reassim flag is false"
+    #print "reassim flag is false"
     
 # if reassim:
 	# do important things
