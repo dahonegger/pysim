@@ -197,6 +197,12 @@ if not real_data:
 # sys.exit()
 
 ## THIS IS WHERE PSEUDOCODE GOES:
+newflag = True
+if newflag:
+    print "Newflag works!"
+else:
+    print "Newflag doesn't work :("
+    
 # if reassim:
 	# do important things
 # else:
