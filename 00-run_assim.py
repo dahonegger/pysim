@@ -199,17 +199,17 @@ if not real_data:
 ## THIS IS WHERE PSEUDOCODE GOES:
 newflag = True
 if reassim:
-    print "Newflag works!"
+    print "reassim flag is true"
 else:
-    print "Newflag doesn't work :("
+    print "reassim flag is false"
     
 # if reassim:
 	# do important things
 # else:
 	# run the loop below
 	
-if newflag:
-	print "Newflag works again!"
+if reassim:
+	print "reassim flag is true again"
 	sys.exit()
 else:
 	for itr in range(nstart,nend+1):
