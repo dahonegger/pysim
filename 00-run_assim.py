@@ -209,7 +209,7 @@ else:
 	# run the loop below
 	
 if newflag:
-	Newflag works again!
+	print "Newflag works again!"
 	sys.exit()
 else:
 	for itr in range(nstart,nend+1):
