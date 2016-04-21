@@ -336,7 +336,8 @@ def do_assimilate_py(itr, dirs):
     os.system('cp -f ' +scr_dir+'/base_info.py           ' + dirs[5])
     #####################################################################################################
     #os.system('cd    '+dirs[5]+'; python  '+ do_assim_python+'  '+str(itr)+' >>log_pre_assim_cur.txt')
-    comm = 'ssh tirigan  "cd  '+ dirs[5]+'; /home/server/pi/homes/ggarcia/local/enthought/canopy/User/bin/python  -u '+ do_assim_python+'  '+str(itr)+' ; touch assimdone "'
+    #comm = 'ssh tirigan  "cd  '+ dirs[5]+'; /home/server/pi/homes/ggarcia/local/enthought/canopy/User/bin/python  -u '+ do_assim_python+'  '+str(itr)+' ; touch assimdone "'
+    comm = 'ssh tirigan  "cd  '+ dirs[5]+'; /home/nmg/nmg/opt/anaconda/bin/python  -u '+ do_assim_python+'  '+str(itr)+' ; touch assimdone "'
     print comm
     os.system(comm)
     flag=dirs[5]+'/assimdone'
