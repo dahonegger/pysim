@@ -195,126 +195,115 @@ if not real_data:
     uv_curv = False    
 ####### Main ################
 # sys.exit()
-
-## THIS IS WHERE PSEUDOCODE GOES:
-newflag = True
-if reassim:
-    #print "reassim flag is true"
-else:
-    #print "reassim flag is false"
-    
-# if reassim:
-	# do important things
-# else:
-	# run the loop below
 	
 if reassim:
 	print "reassim flag is true again"
 	sys.exit()
 else:
-#	for itr in range(nstart,nend+1):
-#		logf('**** > Start iteration > ',str(itr)+'  from > '+str(nend) ,logfile)
-#		# check if we need to create new directory structure
-#		base=base_dir+'/run_'+str(1000+itr)+'/'
-#		if os.path.exists(base):
-#			print 'assimilation directory exist'
-#			sys.exit('I have to think what to do now !')
-#		else:
-#			dirs=create_dirs(itr,base)
-#		
-#		# for the first time prior will be copied from inp directory
-#		if itr==0:
-#			os.system('cp '+local_inp+'/const/'+prior+' '+dirs[0]+'/prior.nc')
-#		else:
-#			#copy new_perior from previous iteration
-#			new_perior=base_dir+'/run_'+str(1000+itr-1)+'/06_mat2prior/new_prior.nc'
-#			os.system('cp '+' '+new_perior+' '+dirs[0]+'/prior.nc' )
-#	
-#		###### >>>>>>>>  Start ASSIMILATION  <<<<<<<<< #############
-#		#Asign constants from base_info file
-#		try:
-#			dep_ij=Lz[itr]
-#		except:
-#			dep_ij=Lz.min()
-#		############################################################
-#		try:
-#			sar_err_reduce   = sar_err_reduction[itr]
-#			radar_err_reduce = radar_err_reduction[itr]
-#		except:
-#			sar_err_reduce   = sar_err_reduction.max()
-#			radar_err_reduce = radar_err_reduction.max()
-#		############################################################
-#		try:
-#			cov_hh_limit_ij=cov_hh_limit[itr]
-#		except:
-#			cov_hh_limit_ij=cov_hh_limit.min()            
-#		############################################################
-#		logf('>sar_err_reduce   ',str(sar_err_reduce) ,logfile)
-#		logf('>radar_err_reduce ',str(radar_err_reduce) ,logfile)
-#		logf('>dep_ij '          ,str(dep_ij) ,logfile)
-#		logf('>cov_hh_limit_ij ' ,str(cov_hh_limit_ij) ,logfile)
-#		############################################################
-#		#Taking care of whether flood or ebb data need to take into account
-#		#Works only for SYN data now
-#		############################################################
-#		if real_data:
-#			obs_syn=local_inp+'/obs/sar/'+'uASAR.nc'
-#			obs_flood=local_inp+'/obs/sar/'+base_info.obs_flood
-#			obs_ebb=local_inp+'/obs/sar/'+base_info.obs_ebb
-#		else:                
-#			obs_syn=local_inp+'/obs/syn/'+'syn1nri_his.nc'
-#			obs_flood=local_inp+'/obs/syn/'+base_info.obs_flood
-#			obs_ebb=local_inp+'/obs/syn/'+base_info.obs_ebb
-#		#############################################################    
-#		try:
-#			tide_case=base_info.choose_tide[itr]
-#		except:
-#			tide_case=base_info.choose_tide[-1]
-#		
-#		if  tide_case=='ebb':
-#			logf(' ', 'Taking ebb obs file.' ,logfile)
-#			os.system('rm '+obs_syn)
-#			os.system('ln -s '+obs_ebb+'  '+obs_syn)
-#			logf('assim obs file ',obs_ebb,logfile)
-#		elif tide_case=='flood':
-#			logf(' ', 'Taking flood obs file.' ,logfile)
-#			os.system('rm '+obs_syn)
-#			os.system('ln -s '+obs_flood+'  '+obs_syn)
-#			logf('assim obs file ',obs_flood ,logfile)
-#		
-#		make_bathy(dirs,N,Li,Lj,dep_ij,equal_space)
-#		#sys.exit()
-#		bathy_adj(dirs,cov_hh_limit_ij)
-#		#sys.exit()
-#		##############################################################
-#		#do_runs(dirs)
-#		#do_runs_roms(dirs,servers,nrun=50)
-#		do_runs_roms(dirs,servers)
-#		next = check_runs(dirs[3],list=None)
-#		
-#		members_adj(dirs,nobs=0)  # nobs is the number of data index in data  nc file (0 for the first time index) 
-#		do_pre_assim_cur (itr, dirs) 
-#		
-#		if asim_sar2:
-#			members_adj(dirs,nobs=1)
-#		
-#		if asim_swf:
-#			roms2swift(dirs)
-#			do_pre_assim_swift(itr, dirs)
-#		
-#		if asim_wav:
-#			pre_swan_run(dirs)
-#			do_swan_run (dirs,servers)
-#			#final check over all again (because there might be remaining)
-#			next=check_runs(dirs[9],list=None)
-#			do_swan_adj(dirs)
-#			do_pre_assim_wave(itr, dirs) 
-#		
-#		#Matlab routine 
-#		#do_assimilate_matlab (dirs,sar_err_reduce,radar_err_reduce,asim_sar,asim_wav,asim_swf)
-#		#PYTHON routine
-#		do_assimilate_py(itr, dirs)
-#		mk_new_prior(dirs)
+	print "reassim flag is false"
+	for itr in range(nstart,nend+1):
+		logf('**** > Start iteration > ',str(itr)+'  from > '+str(nend) ,logfile)
+		# check if we need to create new directory structure
+		base=base_dir+'/run_'+str(1000+itr)+'/'
+		if os.path.exists(base):
+			print 'assimilation directory exist'
+			sys.exit('I have to think what to do now !')
+		else:
+			dirs=create_dirs(itr,base)
+		
+		# for the first time prior will be copied from inp directory
+		if itr==0:
+			os.system('cp '+local_inp+'/const/'+prior+' '+dirs[0]+'/prior.nc')
+		else:
+			#copy new_perior from previous iteration
+			new_perior=base_dir+'/run_'+str(1000+itr-1)+'/06_mat2prior/new_prior.nc'
+			os.system('cp '+' '+new_perior+' '+dirs[0]+'/prior.nc' )
+	
+		###### >>>>>>>>  Start ASSIMILATION  <<<<<<<<< #############
+		#Asign constants from base_info file
+		try:
+			dep_ij=Lz[itr]
+		except:
+			dep_ij=Lz.min()
+		############################################################
+		try:
+			sar_err_reduce   = sar_err_reduction[itr]
+			radar_err_reduce = radar_err_reduction[itr]
+		except:
+			sar_err_reduce   = sar_err_reduction.max()
+			radar_err_reduce = radar_err_reduction.max()
+		############################################################
+		try:
+			cov_hh_limit_ij=cov_hh_limit[itr]
+		except:
+			cov_hh_limit_ij=cov_hh_limit.min()            
+		############################################################
+		logf('>sar_err_reduce   ',str(sar_err_reduce) ,logfile)
+		logf('>radar_err_reduce ',str(radar_err_reduce) ,logfile)
+		logf('>dep_ij '          ,str(dep_ij) ,logfile)
+		logf('>cov_hh_limit_ij ' ,str(cov_hh_limit_ij) ,logfile)
+		############################################################
+		#Taking care of whether flood or ebb data need to take into account
+		#Works only for SYN data now
+		############################################################
+		if real_data:
+			obs_syn=local_inp+'/obs/sar/'+'uASAR.nc'
+			obs_flood=local_inp+'/obs/sar/'+base_info.obs_flood
+			obs_ebb=local_inp+'/obs/sar/'+base_info.obs_ebb
+		else:                
+			obs_syn=local_inp+'/obs/syn/'+'syn1nri_his.nc'
+			obs_flood=local_inp+'/obs/syn/'+base_info.obs_flood
+			obs_ebb=local_inp+'/obs/syn/'+base_info.obs_ebb
+		#############################################################    
+		try:
+			tide_case=base_info.choose_tide[itr]
+		except:
+			tide_case=base_info.choose_tide[-1]
+		
+		if  tide_case=='ebb':
+			logf(' ', 'Taking ebb obs file.' ,logfile)
+			os.system('rm '+obs_syn)
+			os.system('ln -s '+obs_ebb+'  '+obs_syn)
+			logf('assim obs file ',obs_ebb,logfile)
+		elif tide_case=='flood':
+			logf(' ', 'Taking flood obs file.' ,logfile)
+			os.system('rm '+obs_syn)
+			os.system('ln -s '+obs_flood+'  '+obs_syn)
+			logf('assim obs file ',obs_flood ,logfile)
+		
+		make_bathy(dirs,N,Li,Lj,dep_ij,equal_space)
+		#sys.exit()
+		bathy_adj(dirs,cov_hh_limit_ij)
+		#sys.exit()
+		##############################################################
+		#do_runs(dirs)
+		#do_runs_roms(dirs,servers,nrun=50)
+		do_runs_roms(dirs,servers)
+		next = check_runs(dirs[3],list=None)
+		
+		members_adj(dirs,nobs=0)  # nobs is the number of data index in data  nc file (0 for the first time index) 
+		do_pre_assim_cur (itr, dirs) 
+		
+		if asim_sar2:
+			members_adj(dirs,nobs=1)
+		
+		if asim_swf:
+			roms2swift(dirs)
+			do_pre_assim_swift(itr, dirs)
+		
+		if asim_wav:
+			pre_swan_run(dirs)
+			do_swan_run (dirs,servers)
+			#final check over all again (because there might be remaining)
+			next=check_runs(dirs[9],list=None)
+			do_swan_adj(dirs)
+			do_pre_assim_wave(itr, dirs) 
+		
+		#Matlab routine 
+		#do_assimilate_matlab (dirs,sar_err_reduce,radar_err_reduce,asim_sar,asim_wav,asim_swf)
+		#PYTHON routine
+		do_assimilate_py(itr, dirs)
+		mk_new_prior(dirs)
 
 
 logf(' > Finish this part ',' With Success < ' ,logfile)
