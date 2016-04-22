@@ -1,23 +1,28 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-Main script for doing assimilation WITH EXTRA TEXT  ####
+Rerun the assimilation routine using different assimilation params (in base_info.py)
 """
-__author__    = "Saeed Moghimi"
-__copyright__ = "Copyright 2015, Oregon State University"
+__author__    = "David Honegger"
+__copyright__ = "Copyright 2016, Oregon State University"
 __license__   = "GPL"
 __version__   = "0.1"
-__email__     = "moghimis@gmail.com"
+__email__     = "dahonegger@gmail.com"
 
-#############################################
-# Saeed Moghimi; moghimis@gmail.com
+#########################################################
+# David Honegger; dahonegger@gmail.com
 # Logs:
-# 1.0 03/25/2013 02:14:41 PM    prepared for general use
-# 2.0 04/04/2015 09:14:41 AM    complete overhall- adding python assimilation routine
-# 2.1 03/09/2016 				[David Honegger] Additional commenting
+# 1.0 04/22/2016    prepared for initial use
+# 2.0 
 # 3.0
 # 4.0 
 #########################################################
+
+##### NOTE #####
+# Much of this script is copy-pasted from 00-run_assim.py
+# Not all imported packages and variables are used
+################
+
 # Import python packages to use
 import os,sys
 import glob
@@ -32,14 +37,11 @@ global asim_wav
 global asim_swf
 global real_data
 global uv_curv
-##############################################################
-############## Do not change below this line ################# 
-######################### Main code ##########################
-##############################################################
 # Declare global access to more variables
 global base_dir
 global inp_dir,local_inp
 global scr_dir
+global reassim
 global mk_bathy    
 global adj_bathy 
 global do_run
@@ -48,8 +50,7 @@ global do_assim_matlab
 global do_pre_assim_sar
 global do_pre_assim_wav
 global do_assim_python
-#######################
-# Declare global access to more variables
+# Declare global access to even more variables
 global mat2prior
 global pre_wav_scr 
 global adj_wav_scr  
@@ -73,7 +74,7 @@ except:
 if 'base_info' in sys.modules:  
     del(sys.modules["base_info"])
 import base_info
-##########################################
+#####
 try:
     os.system('rm __init__.pyc'  )
 except:
@@ -82,7 +83,7 @@ except:
 if '__init__' in sys.modules:  
         del(sys.modules["__init__"])
 from __init__ import *
-##########################################
+#####
 try:
     os.system('rm assim_module.pyc'  )
 except:
@@ -190,8 +191,28 @@ else:
 
 if not real_data:
     uv_curv = False    
-####### Main ################
-# sys.exit()
+
+
+#############################################
+####### THE ACTION IS HERE ##################
+#############################################
+
+# Reassimilate only final iteration, because reassimilation changes downstream iterations
+# (Really, reassimilation only makes sense for zero-iteration assimilations)
+itr = nend
+
+# Output directory
+base=base_dir+'/run_'+str(1000+itr)+'/'
+
+##### PSEUDOCODE:
+# copy everything from 06_mat2prior to 05_assimilate
+comm = 'cp -rf '+base+'06_mat2prior/* ',+base+,'05_assimilate/'
+os.system(comm)
+# rerun preassimilation scripts
+
+# rerun assimilation script
+
+
 
 for itr in range(nstart,nend+1):
 	logf('**** > Start iteration > ',str(itr)+'  from > '+str(nend) ,logfile)
@@ -208,11 +229,11 @@ for itr in range(nstart,nend+1):
 		os.system('cp '+local_inp+'/const/'+prior+' '+dirs[0]+'/prior.nc')
 	else:
 		#copy new_perior from previous iteration
-		new_perior=base_dir+'/run_'+str(1000+itr-1)+'/06_mat2prior/new_prior.nc'
-		os.system('cp '+' '+new_perior+' '+dirs[0]+'/prior.nc' )
+		new_prior=base_dir+'/run_'+str(1000+itr-1)+'/06_mat2prior/new_prior.nc'
+		os.system('cp '+' '+new_prior+' '+dirs[0]+'/prior.nc' )
 
 	###### >>>>>>>>  Start ASSIMILATION  <<<<<<<<< #############
-	#Asign constants from base_info file
+	#Assign constants from base_info file
 	try:
 		dep_ij=Lz[itr]
 	except:
@@ -296,7 +317,6 @@ for itr in range(nstart,nend+1):
 	#PYTHON routine
 	do_assimilate_py(itr, dirs)
 	mk_new_prior(dirs)
-
 
 logf(' > Finish this part ',' With Success < ' ,logfile)
 
