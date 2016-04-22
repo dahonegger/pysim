@@ -166,32 +166,9 @@ ocean_exe   = base_info.ocean_exe
 roms_inp    = base_info.roms_inp
 run_type    = base_info.run_type
 ##########################################
-# log file (defined in "__init__.py"); logf() appends to logfile
-logf('>>>>>>>>>>>>>> start new assimilation at > ',datetime.datetime.now().isoformat() ,logfile)
-logf('base_dir',base_dir ,logfile)
-logf('mk_bathy',mk_bathy ,logfile)
-logf('adj_bathy',adj_bathy ,logfile)
-logf('do_run',do_run ,logfile)
-logf('adj_mem',adj_mem ,logfile)
-logf('mat2prior',mat2prior ,logfile)
-logf('pre_wav_scr',pre_wav_scr ,logfile)
-logf('adj_wav_scr',  adj_wav_scr ,logfile)
-logf('pre_swf_scr',pre_swf_scr ,logfile)
-logf('ocean_exe',ocean_exe ,logfile)
-logf('run_type',run_type ,logfile)
-logf('roms_inp',roms_inp ,logfile)
-#########################################
-#copy inp_dir to local_inp
-if os.path.exists(local_inp):
-    print '>>>>> Local input directory exist ...'
-    print '>>>>> Check if OBS files are set right ...'
-else:
-    print '>>>>> Copying inp_dir to local_inp ...'
-    os.system('cp -r ' +inp_dir+'   '+local_inp)
 
 if not real_data:
     uv_curv = False    
-
 
 #############################################
 ####### THE ACTION IS HERE ##################
@@ -210,10 +187,27 @@ comm = 'cp -rf '+base+'06_mat2prior/* ',+base+,'05_assimilate/'
 os.system(comm)
 # rerun preassimilation scripts
 
+members_adj(dirs,nobs=0)  # nobs is the number of data index in data  nc file (0 for the first time index) 
+do_pre_assim_cur (itr, dirs) 
+
+if asim_sar2:
+	members_adj(dirs,nobs=1)
+
+if asim_swf:
+	roms2swift(dirs)
+	do_pre_assim_swift(itr, dirs)
+
+if asim_wav:
+	do_swan_adj(dirs)
+	do_pre_assim_wave(itr, dirs) 
+
 # rerun assimilation script
+do_reassimilate_py(itr, dirs)
 
+sys.exit()
+### END OF SCRIPT ### 
 
-
+############## ORIGINAL 00- SCRIPT BELOW
 for itr in range(nstart,nend+1):
 	logf('**** > Start iteration > ',str(itr)+'  from > '+str(nend) ,logfile)
 	# check if we need to create new directory structure
