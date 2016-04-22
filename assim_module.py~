@@ -64,6 +64,24 @@ def create_dirs(itr,base): # Creates output directories for each assimilation it
     os.system('cp -fr ' +scr_dir+'/py      ' +base+'/scr/py')
     return dirs
 
+def load_dirs(itr,base): # Loads premade output directories for each assimilation iteration
+    logf('create_dirs()',  base ,logfile)
+    dirs=[]
+    dirs.append(base+ '00_prior')
+    dirs.append(base+ '01_bat_inp')
+    dirs.append(base+ '02_bat_adj')
+    dirs.append(base+ '03_mem_inp')
+    dirs.append(base+ '04_mem_adj')
+    dirs.append(base+ '05_assimilate')
+    dirs.append(base+ '06_mat2prior')
+    dirs.append(base+ '07_post')
+    dirs.append(base+ '08_forward')
+    #wave directories
+    dirs.append(base+ '04_wav_adj')
+    dirs.append(base+ '04_swf_adj')
+    dirs.append(base+ '08_forward_swan')
+    return dirs
+
 def make_bathy(dirs,nmember,len_i,len_j,dep_ij,equal_space): # Run the mk_bathy() script (currently in matlab)
     logf('>>>>> ',datetime.datetime.now().isoformat() ,logfile)
     logf('make_bathy()','  > run matlab for generating new set of bathy files ..' ,logfile)
