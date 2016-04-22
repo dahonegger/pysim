@@ -1,132 +1,41 @@
 /home/shusin3/shared/assim/dah_test_indentation/run_1000/03_mem_inp:
-total 80
-drwxrwxr-x+ 2 nmg holman 4096 Apr 19 18:36 member1001
-drwxrwxr-x+ 2 nmg holman 4096 Apr 19 18:36 member1002
-drwxrwxr-x+ 2 nmg holman 4096 Apr 19 18:36 member1003
-drwxrwxr-x+ 2 nmg holman 4096 Apr 19 18:36 member1004
-drwxrwxr-x+ 2 nmg holman 4096 Apr 19 18:36 member1005
-drwxrwxr-x+ 2 nmg holman 4096 Apr 19 18:36 member1006
-drwxrwxr-x+ 2 nmg holman 4096 Apr 19 18:36 member1007
-drwxrwxr-x+ 2 nmg holman 4096 Apr 19 18:36 member1008
-drwxrwxr-x+ 2 nmg holman 4096 Apr 19 18:36 member1009
-drwxrwxr-x+ 2 nmg holman 4096 Apr 19 18:36 member1010
+total 24
+drwxrwxr-x+ 2 nmg holman 4096 Apr 22 13:54 member1001
+drwxrwxr-x+ 2 nmg holman 4096 Apr 22 13:54 member1002
+drwxrwxr-x+ 2 nmg holman 4096 Apr 22 13:54 member1003
 
 /home/shusin3/shared/assim/dah_test_indentation/run_1000/03_mem_inp/member1001:
-total 57552
-lrwxrwxrwx  1 nmg holman       78 Apr 19 18:36 varinfo.dat -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/varinfo.dat
--rwxrwxr-x+ 1 nmg holman    64557 Apr 19 18:36 param.in
-lrwxrwxrwx  1 nmg holman      100 Apr 19 18:36 initial.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
-lrwxrwxrwx  1 nmg holman       79 Apr 19 18:36 grd.nc -> /home/shusin3/shared/assim/dah_test_indentation/run_1000/02_bat_adj/bath1001.nc
-lrwxrwxrwx  1 nmg holman      102 Apr 19 18:36 bry.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
--rwxrwxr-x+ 1 nmg holman  5109684 Apr 19 18:36 nri_avg.nc
--rwxrwxr-x+ 1 nmg holman  7980968 Apr 19 19:24 nri_rst.nc
--rwxrwxr-x+ 1 nmg holman 45296484 Apr 19 19:26 nri_his_0001.nc
--rwxrwxr-x+ 1 nmg holman   356332 Apr 19 19:26 runlog
+total 60388
+lrwxrwxrwx  1 nmg holman       78 Apr 22 13:54 varinfo.dat -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/varinfo.dat
+-rwxrwxr-x+ 1 nmg holman    64557 Apr 22 13:54 param.in
+lrwxrwxrwx  1 nmg holman      100 Apr 22 13:54 initial.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx  1 nmg holman       79 Apr 22 13:54 grd.nc -> /home/shusin3/shared/assim/dah_test_indentation/run_1000/02_bat_adj/bath1001.nc
+lrwxrwxrwx  1 nmg holman      102 Apr 22 13:54 bry.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+-rwxrwxr-x+ 1 nmg holman  5109684 Apr 22 13:55 nri_avg.nc
+-rwxrwxr-x+ 1 nmg holman   381640 Apr 22 14:24 runlog
+-rwxrwxr-x+ 1 nmg holman 48166908 Apr 22 14:24 nri_his_0001.nc
+-rwxrwxr-x+ 1 nmg holman  7980968 Apr 22 14:24 nri_rst.nc
 
 /home/shusin3/shared/assim/dah_test_indentation/run_1000/03_mem_inp/member1002:
-total 56620
-lrwxrwxrwx  1 nmg holman       78 Apr 19 18:36 varinfo.dat -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/varinfo.dat
--rwxrwxr-x+ 1 nmg holman    64557 Apr 19 18:36 param.in
-lrwxrwxrwx  1 nmg holman      100 Apr 19 18:36 initial.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
-lrwxrwxrwx  1 nmg holman       79 Apr 19 18:36 grd.nc -> /home/shusin3/shared/assim/dah_test_indentation/run_1000/02_bat_adj/bath1002.nc
-lrwxrwxrwx  1 nmg holman      102 Apr 19 18:36 bry.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
--rwxrwxr-x+ 1 nmg holman  5109684 Apr 19 18:36 nri_avg.nc
--rwxrwxr-x+ 1 nmg holman  7980968 Apr 19 19:25 nri_rst.nc
--rwxrwxr-x+ 1 nmg holman 44339676 Apr 19 19:25 nri_his_0001.nc
--rwxrwxr-x+ 1 nmg holman   354568 Apr 19 19:26 runlog
+total 60392
+lrwxrwxrwx  1 nmg holman       78 Apr 22 13:54 varinfo.dat -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/varinfo.dat
+-rwxrwxr-x+ 1 nmg holman    64557 Apr 22 13:54 param.in
+lrwxrwxrwx  1 nmg holman      100 Apr 22 13:54 initial.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx  1 nmg holman       79 Apr 22 13:54 grd.nc -> /home/shusin3/shared/assim/dah_test_indentation/run_1000/02_bat_adj/bath1002.nc
+lrwxrwxrwx  1 nmg holman      102 Apr 22 13:54 bry.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+-rwxrwxr-x+ 1 nmg holman  5109684 Apr 22 13:55 nri_avg.nc
+-rwxrwxr-x+ 1 nmg holman 48166908 Apr 22 14:23 nri_his_0001.nc
+-rwxrwxr-x+ 1 nmg holman  7980968 Apr 22 14:24 nri_rst.nc
+-rwxrwxr-x+ 1 nmg holman   387309 Apr 22 14:24 runlog
 
 /home/shusin3/shared/assim/dah_test_indentation/run_1000/03_mem_inp/member1003:
-total 56620
-lrwxrwxrwx  1 nmg holman       78 Apr 19 18:36 varinfo.dat -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/varinfo.dat
--rwxrwxr-x+ 1 nmg holman    64557 Apr 19 18:36 param.in
-lrwxrwxrwx  1 nmg holman      100 Apr 19 18:36 initial.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
-lrwxrwxrwx  1 nmg holman       79 Apr 19 18:36 grd.nc -> /home/shusin3/shared/assim/dah_test_indentation/run_1000/02_bat_adj/bath1003.nc
-lrwxrwxrwx  1 nmg holman      102 Apr 19 18:36 bry.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
--rwxrwxr-x+ 1 nmg holman  5109684 Apr 19 18:36 nri_avg.nc
--rwxrwxr-x+ 1 nmg holman  7980968 Apr 19 19:25 nri_rst.nc
--rwxrwxr-x+ 1 nmg holman 44339676 Apr 19 19:25 nri_his_0001.nc
--rwxrwxr-x+ 1 nmg holman   354820 Apr 19 19:26 runlog
-
-/home/shusin3/shared/assim/dah_test_indentation/run_1000/03_mem_inp/member1004:
-total 57556
-lrwxrwxrwx  1 nmg holman       78 Apr 19 18:36 varinfo.dat -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/varinfo.dat
--rwxrwxr-x+ 1 nmg holman    64557 Apr 19 18:36 param.in
-lrwxrwxrwx  1 nmg holman      100 Apr 19 18:36 initial.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
-lrwxrwxrwx  1 nmg holman      102 Apr 19 18:36 bry.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
-lrwxrwxrwx  1 nmg holman       79 Apr 19 18:36 grd.nc -> /home/shusin3/shared/assim/dah_test_indentation/run_1000/02_bat_adj/bath1004.nc
--rwxrwxr-x+ 1 nmg holman  5109684 Apr 19 18:36 nri_avg.nc
--rwxrwxr-x+ 1 nmg holman  7980968 Apr 19 19:24 nri_rst.nc
--rwxrwxr-x+ 1 nmg holman 45296484 Apr 19 19:26 nri_his_0001.nc
--rwxrwxr-x+ 1 nmg holman   357088 Apr 19 19:26 runlog
-
-/home/shusin3/shared/assim/dah_test_indentation/run_1000/03_mem_inp/member1005:
-total 56620
-lrwxrwxrwx  1 nmg holman       78 Apr 19 18:36 varinfo.dat -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/varinfo.dat
--rwxrwxr-x+ 1 nmg holman    64557 Apr 19 18:36 param.in
-lrwxrwxrwx  1 nmg holman      100 Apr 19 18:36 initial.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
-lrwxrwxrwx  1 nmg holman       79 Apr 19 18:36 grd.nc -> /home/shusin3/shared/assim/dah_test_indentation/run_1000/02_bat_adj/bath1005.nc
-lrwxrwxrwx  1 nmg holman      102 Apr 19 18:36 bry.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
--rwxrwxr-x+ 1 nmg holman  5109684 Apr 19 18:36 nri_avg.nc
--rwxrwxr-x+ 1 nmg holman  7980968 Apr 19 19:25 nri_rst.nc
--rwxrwxr-x+ 1 nmg holman 44339676 Apr 19 19:25 nri_his_0001.nc
--rwxrwxr-x+ 1 nmg holman   355324 Apr 19 19:26 runlog
-
-/home/shusin3/shared/assim/dah_test_indentation/run_1000/03_mem_inp/member1006:
-total 57552
-lrwxrwxrwx  1 nmg holman       78 Apr 19 18:36 varinfo.dat -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/varinfo.dat
--rwxrwxr-x+ 1 nmg holman    64557 Apr 19 18:36 param.in
-lrwxrwxrwx  1 nmg holman      100 Apr 19 18:36 initial.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
-lrwxrwxrwx  1 nmg holman       79 Apr 19 18:36 grd.nc -> /home/shusin3/shared/assim/dah_test_indentation/run_1000/02_bat_adj/bath1006.nc
-lrwxrwxrwx  1 nmg holman      102 Apr 19 18:36 bry.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
--rwxrwxr-x+ 1 nmg holman  5109684 Apr 19 18:36 nri_avg.nc
--rwxrwxr-x+ 1 nmg holman  7980968 Apr 19 19:25 nri_rst.nc
--rwxrwxr-x+ 1 nmg holman   355912 Apr 19 19:26 runlog
--rwxrwxr-x+ 1 nmg holman 45296484 Apr 19 19:26 nri_his_0001.nc
-
-/home/shusin3/shared/assim/dah_test_indentation/run_1000/03_mem_inp/member1007:
-total 57556
-lrwxrwxrwx  1 nmg holman       78 Apr 19 18:36 varinfo.dat -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/varinfo.dat
--rwxrwxr-x+ 1 nmg holman    64557 Apr 19 18:36 param.in
-lrwxrwxrwx  1 nmg holman      100 Apr 19 18:36 initial.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
-lrwxrwxrwx  1 nmg holman       79 Apr 19 18:36 grd.nc -> /home/shusin3/shared/assim/dah_test_indentation/run_1000/02_bat_adj/bath1007.nc
-lrwxrwxrwx  1 nmg holman      102 Apr 19 18:36 bry.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
--rwxrwxr-x+ 1 nmg holman  5109684 Apr 19 18:36 nri_avg.nc
--rwxrwxr-x+ 1 nmg holman  7980968 Apr 19 19:24 nri_rst.nc
--rwxrwxr-x+ 1 nmg holman 45296484 Apr 19 19:26 nri_his_0001.nc
--rwxrwxr-x+ 1 nmg holman   356836 Apr 19 19:26 runlog
-
-/home/shusin3/shared/assim/dah_test_indentation/run_1000/03_mem_inp/member1008:
-total 56620
--rwxrwxr-x+ 1 nmg holman    64557 Apr 19 18:36 param.in
-lrwxrwxrwx  1 nmg holman       78 Apr 19 18:36 varinfo.dat -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/varinfo.dat
-lrwxrwxrwx  1 nmg holman      100 Apr 19 18:36 initial.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
-lrwxrwxrwx  1 nmg holman       79 Apr 19 18:36 grd.nc -> /home/shusin3/shared/assim/dah_test_indentation/run_1000/02_bat_adj/bath1008.nc
-lrwxrwxrwx  1 nmg holman      102 Apr 19 18:36 bry.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
--rwxrwxr-x+ 1 nmg holman  5109684 Apr 19 18:36 nri_avg.nc
--rwxrwxr-x+ 1 nmg holman  7980968 Apr 19 19:25 nri_rst.nc
--rwxrwxr-x+ 1 nmg holman 44339676 Apr 19 19:25 nri_his_0001.nc
--rwxrwxr-x+ 1 nmg holman   355156 Apr 19 19:26 runlog
-
-/home/shusin3/shared/assim/dah_test_indentation/run_1000/03_mem_inp/member1009:
-total 57560
-lrwxrwxrwx  1 nmg holman       78 Apr 19 18:36 varinfo.dat -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/varinfo.dat
--rwxrwxr-x+ 1 nmg holman    64557 Apr 19 18:36 param.in
-lrwxrwxrwx  1 nmg holman      100 Apr 19 18:36 initial.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
-lrwxrwxrwx  1 nmg holman       79 Apr 19 18:36 grd.nc -> /home/shusin3/shared/assim/dah_test_indentation/run_1000/02_bat_adj/bath1009.nc
-lrwxrwxrwx  1 nmg holman      102 Apr 19 18:36 bry.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
--rwxrwxr-x+ 1 nmg holman  5109684 Apr 19 18:36 nri_avg.nc
--rwxrwxr-x+ 1 nmg holman  7980968 Apr 19 19:24 nri_rst.nc
--rwxrwxr-x+ 1 nmg holman 45296484 Apr 19 19:25 nri_his_0001.nc
--rwxrwxr-x+ 1 nmg holman   362834 Apr 19 19:26 runlog
-
-/home/shusin3/shared/assim/dah_test_indentation/run_1000/03_mem_inp/member1010:
 total 60388
-lrwxrwxrwx  1 nmg holman       78 Apr 19 18:36 varinfo.dat -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/varinfo.dat
--rwxrwxr-x+ 1 nmg holman    64557 Apr 19 18:36 param.in
-lrwxrwxrwx  1 nmg holman      100 Apr 19 18:36 initial.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
-lrwxrwxrwx  1 nmg holman       79 Apr 19 18:36 grd.nc -> /home/shusin3/shared/assim/dah_test_indentation/run_1000/02_bat_adj/bath1010.nc
-lrwxrwxrwx  1 nmg holman      102 Apr 19 18:36 bry.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
--rwxrwxr-x+ 1 nmg holman  5109684 Apr 19 18:36 nri_avg.nc
--rwxrwxr-x+ 1 nmg holman  7980968 Apr 19 19:26 nri_rst.nc
--rwxrwxr-x+ 1 nmg holman 48166908 Apr 19 19:26 nri_his_0001.nc
--rwxrwxr-x+ 1 nmg holman   381557 Apr 19 19:26 runlog
+lrwxrwxrwx  1 nmg holman       78 Apr 22 13:54 varinfo.dat -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/varinfo.dat
+-rwxrwxr-x+ 1 nmg holman    64557 Apr 22 13:54 param.in
+lrwxrwxrwx  1 nmg holman      100 Apr 22 13:54 initial.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx  1 nmg holman       79 Apr 22 13:54 grd.nc -> /home/shusin3/shared/assim/dah_test_indentation/run_1000/02_bat_adj/bath1003.nc
+lrwxrwxrwx  1 nmg holman      102 Apr 22 13:54 bry.nc -> /home/shusin3/shared/assim/dah_test_indentation/inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+-rwxrwxr-x+ 1 nmg holman  5109684 Apr 22 13:55 nri_avg.nc
+-rwxrwxr-x+ 1 nmg holman 48166908 Apr 22 14:24 nri_his_0001.nc
+-rwxrwxr-x+ 1 nmg holman  7980968 Apr 22 14:24 nri_rst.nc
+-rwxrwxr-x+ 1 nmg holman   383488 Apr 22 14:24 runlog

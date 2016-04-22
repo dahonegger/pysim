@@ -183,7 +183,7 @@ base=base_dir+'/run_'+str(1000+itr)+'/'
 
 ##### PSEUDOCODE:
 # copy everything from 06_mat2prior to 05_assimilate
-comm = 'cp -rf '+base+'06_mat2prior/* '+base+'05_assimilate/'
+comm = 'cp -rf '+base+'06_mat2prior/* ',+base+,'05_assimilate/'
 os.system(comm)
 # rerun preassimilation scripts
 

@@ -290,7 +290,8 @@ for itr in range(nstart,nend+1):
 		next=check_runs(dirs[9],list=None)
 		do_swan_adj(dirs)
 		do_pre_assim_wave(itr, dirs) 
-	
+
+	#sys.exit()
 	#Matlab routine 
 	#do_assimilate_matlab (dirs,sar_err_reduce,radar_err_reduce,asim_sar,asim_wav,asim_swf)
 	#PYTHON routine
