@@ -180,6 +180,8 @@ itr = nend
 
 # Output directory
 base=base_dir+'/run_'+str(1000+itr)+'/'
+# Load output subdirectories
+dirs = load_dirs(itr,base)
 
 ##### PSEUDOCODE:
 # copy everything from 06_mat2prior to 05_assimilate
