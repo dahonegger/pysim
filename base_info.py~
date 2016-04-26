@@ -76,7 +76,7 @@ pre_swf_scr ='04-roms2swift.py'
 ################################################################################
 ####  Generating ensemble members (bathymetry)   >>>>>>>>>>>>>>>>>>>>
 #making members bathymetry
-N = 50     #number of members
+N = 3     #number of members
 ###########################################################################
 equal_space = True
 # perturbation scales
@@ -92,8 +92,8 @@ else:
 Lz            = 0.5,0.3,0.2,
 cov_hh_limit  = 1.5,1.5,1.5,                                # consistent with ebb case
 
-jump_wav = 1  #jump over data points (every other data points for j=2)
-jump_cur = 1 
+jump_wav = 2  #jump over data points (every other data points for j=2)
+jump_cur = 2 
 Localize_len = 400   # in meter
 
 ###########

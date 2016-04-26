@@ -204,7 +204,9 @@ if asim_wav:
 	do_pre_assim_wave(itr, dirs) 
 
 # rerun assimilation script
+#sys.exit()
 do_reassimilate_py(itr, dirs)
+print 'Reassimilation done'
 
 sys.exit()
 ### END OF SCRIPT ### 
