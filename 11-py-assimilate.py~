@@ -415,9 +415,14 @@ file_sufix += '_L-'         + str (localize_len)
 
 dirCount = 0
 assimSubDir = 'assim'+'{:04d}'.format(dirCount)+'/'
-while not os.path.exists(assimilate_dir + assimSubDir)
+totPath = assimilate_dir+assimSubDir
+while os.path.exists(totPath):
 	dirCount += 1
 	assimSubDir = 'assim'+'{:04d}'.format(dirCount)+'/'
+        totPath = assimilate_dir+assimSubDir
+        print totPath
+print 'New assimilate output directory is: '+totPath
+os.mkdir(totPath)
 
 # namep      = 'assimilate_out'+file_sufix+'.nc'
 namep      = 'assimilate_out.nc'
@@ -510,6 +515,12 @@ scr_name = args[0]
 scr_dir1 = os.getcwd()
 os.system('cp -fr  ' + scr_name + '    ' + assimilate_dir)
 os.system('cp -fr  base_info.py        ' + assimilate_dir)
+os.system('cp -fr  base_info.py        ' + totPath)
+
+# Write to text file what used to be the directory and file names
+fid = open('params.txt','wb')
+fid.write(file_sufix + '\n')
+fid.close()
 
 if True:
     figname = assimilate_dir + assimSubDir + 'pic'

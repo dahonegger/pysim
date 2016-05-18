@@ -104,8 +104,6 @@ memdir  = wav_member_dir+'/member1*'
 dirlist = np.array(glob.glob(memdir))
 dirlist.sort()
 nmemw   = len(dirlist)
-nmemw = base_info.N
-
 #create variables to be read in
 # read SIZE from a sample
 ncf   = dirlist[0]+'/swout.nc'
@@ -346,48 +344,23 @@ for field in meas.keys():
         alphai=np.zeros_like(hi)
         
         for n in range(Nw):
-            #hi[:,n]=interpg(xw[~maskm],yw[~maskm],dw[~maskm,n],obs.x,obs.y)
-            if n==0:
-                csa_interp = csa.CSA(xw[~maskm],yw[~maskm],dw[~maskm,n])
-            else:
-                csa_interp.zin = dw[~maskm,n]
-            hi[:,n] = csa_interp(obs.x,obs.y)
+            hi[:,n]=interpg(xw[~maskm],yw[~maskm],dw[~maskm,n],obs.x,obs.y)
         print '  > k1/5'
 
         for n in range(Nw):
-            #ui[:,n]=interpg(xw[~maskm],yw[~maskm],uw[~maskm,n],obs.x,obs.y)
-            if n==0:
-                csa_interp = csa.CSA(xw[~maskm],yw[~maskm],uw[~maskm,n])
-            else:
-                csa_interp.zin = uw[~maskm,n]
-            ui[:,n] = csa_interp(obs.x,obs.y)
+            ui[:,n]=interpg(xw[~maskm],yw[~maskm],uw[~maskm,n],obs.x,obs.y)
         print '  > k2/5'
 
         for n in range(Nw):
-            #vi[:,n]=interpg(xw[~maskm],yw[~maskm],vw[~maskm,n],obs.x,obs.y)
-            if n==0:
-                csa_interp = csa.CSA(xw[~maskm],yw[~maskm],vw[~maskm,n])
-            else:
-                csa_interp.zin = vw[~maskm,n]
-            vi[:,n] = csa_interp(obs.x,obs.y)
+            vi[:,n]=interpg(xw[~maskm],yw[~maskm],vw[~maskm,n],obs.x,obs.y)
         print '  > k3/5'
 
         for n in range(Nw):
-            #Hi[:,n]=interpg(xw[~maskm],yw[~maskm],Hw[~maskm,n],obs.x,obs.y)
-            if n==0:
-                csa_interp = csa.CSA(xw[~maskm],yw[~maskm],Hw[~maskm,n])
-            else:
-                csa_interp.zin = Hw[~maskm,n]
-            Hi[:,n] = csa_interp(obs.x,obs.y)
+            Hi[:,n]=interpg(xw[~maskm],yw[~maskm],Hw[~maskm,n],obs.x,obs.y)
         print '  > k4/5'
 
         for n in range(Nw):
-            #alphai[:,n]=interpg(xw[~maskm],yw[~maskm],dirw[~maskm,n],obs.x,obs.y)
-            if n==0:
-                csa_interp = csa.CSA(xw[~maskm],yw[~maskm],dirw[~maskm,n])
-            else:
-                csa_interp.zin = dirw[~maskm,n]
-            alphai[:,n] = csa_interp(obs.x,obs.y)
+            alphai[:,n]=interpg(xw[~maskm],yw[~maskm],dirw[~maskm,n],obs.x,obs.y)
         print '  > k5/5'
         
         print ' > Wave relative direction to current assumed to be Nautical >> Hrad Coded'

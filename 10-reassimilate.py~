@@ -181,7 +181,7 @@ itr = nend
 # Output directory
 base=base_dir+'/run_'+str(1000+itr)+'/'
 # Load output subdirectories
-
+dirs = load_dirs(itr,base)
 
 ##### PSEUDOCODE:
 # copy everything from 06_mat2prior to 05_assimilate
@@ -204,7 +204,9 @@ if asim_wav:
 	do_pre_assim_wave(itr, dirs) 
 
 # rerun assimilation script
+#sys.exit()
 do_reassimilate_py(itr, dirs)
+print 'Reassimilation done'
 
 sys.exit()
 ### END OF SCRIPT ### 

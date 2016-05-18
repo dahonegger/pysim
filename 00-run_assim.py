@@ -301,8 +301,8 @@ for itr in range(nstart,nend+1):
 
 logf(' > Finish this part ',' With Success < ' ,logfile)
 
-sys.exit() #  
-for itr in [0,1,2,3,4,5]:
+#sys.exit() #  
+for itr in range(nstart,nend+1):
     print 'Start forward run > ', itr,'  from > ', nend
     base = base_dir+'/run_'+str(1000+itr)+'/'
     dirs = create_dirs(itr,base)
@@ -310,14 +310,14 @@ for itr in [0,1,2,3,4,5]:
     do_forward_run(dirs,'tirigan')
 
 #SWAN Forward RUN
-for itr in [0,6]:#,4,5,6,7,8]:
+for itr in range(nstart,nend+1):
     print 'Start SWAN forward run > ', itr,'  from > ', nend
     base = base_dir+'/run_'+str(1000+itr)+'/'
     dirs = create_dirs(itr,base)
     do_forward_swan_run(dirs,'tirigan')
 
 #SWAN Forward RUN adjust and netcdf output
-for itr in [0,6]:#,4,5,6,7,8]:
+for itr in range(nstart,nend+1):
     base = base_dir + '/run_'+str(1000+itr) + '/'
     dirs = create_dirs(itr,base)    
     logf('do_swan_adj()','  > Adjust forward swan run ..' ,logfile)

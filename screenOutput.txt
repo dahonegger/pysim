@@ -1,0 +1,77 @@
+>>>>>  > 2016-04-30T20:39:05.451254
+
+check_runs() >   > Wait for runs to finish ..
+
+    > A specified list will be watched ..  > 25
+
+       > The total_wait is (Sec)>> > 600
+
+>>>>>  > 2016-04-30T20:57:07.398103
+
+check_runs() >   > Wait for runs to finish ..
+
+>>>>>  > 2016-04-30T20:57:07.935048
+
+do_swan_adj() >   > Adjust swan members ..
+
+>>>>>  > 2016-04-30T21:07:35.287502
+
+do_pre_assim_wave(itr, dirs) >   > WAV is getting ready for assimilation ..
+
+Traceback (most recent call last):
+  File "05-pre_asim_wav.py", line 65, in <module>
+    import octant.csa as csa
+ImportError: No module named octant.csa
+>>>>>  > 2016-04-30T21:07:39.394709
+
+do_assimilate_py() >   > run python assimilation routine ..
+
+ssh tirigan  "cd  /home/shusin3/shared/assim/dah_1/run_1000/05_assimilate; /home/nmg/nmg/opt/anaconda/bin/python  -u 05-py-assimilate.py  0 ; touch assimdone "
+ > Assim. WAV
+   > Reduce WAV  1.0
+    >  k
+Traceback (most recent call last):
+  File "05-py-assimilate.py", line 178, in <module>
+    wavenc     = netCDF4.Dataset(wpick_name)
+  File "netCDF4/_netCDF4.pyx", line 1616, in netCDF4._netCDF4.Dataset.__init__ (netCDF4/_netCDF4.c:9689)
+RuntimeError: No such file or directory
+>>>>>  > 2016-04-30T21:07:43.140277
+
+mk_new_prior() >   > making new prior getting ready for next iteration  ..
+
+ > Finish this part  >  With Success < 
+
+Start forward run >  0   from >  0
+create_dirs() > /home/shusin3/shared/assim/dah_1/run_1000/
+
+cp: cannot stat `/home/shusin3/shared/assim/dah_1/run_1000/06_mat2prior/new_prior.nc': No such file or directory
+>>>>>  > 2016-04-30T21:07:46.142754
+
+do_forward_run() >   > Start forward run for ... 
+/home/shusin3/shared/assim/dah_1/run_1000/00_prior
+
+Start SWAN forward run >  0   from >  0
+create_dirs() > /home/shusin3/shared/assim/dah_1/run_1000/
+
+Invalid null command.
+>>>>>  > 2016-04-30T21:07:47.065575
+
+do_forward_run() >   > Start forward swan run for ... 
+/home/shusin3/shared/assim/dah_1/run_1000/00_prior
+
+ >     > Start SWAN forward run for ... /home/shusin3/shared/assim/dah_1/run_1000/08_forward_swan
+
+ln: creating symbolic link `/home/shusin3/shared/assim/dah_1/run_1000/08_forward_swan/08_forward/swan' to `/home/shusin3/shared/assim/dah_1/inp/const//swan/swan_ser': No such file or directory
+cp: cannot create regular file `/home/shusin3/shared/assim/dah_1/run_1000/08_forward_swan/08_forward/INPUT': No such file or directory
+create_dirs() > /home/shusin3/shared/assim/dah_1/run_1000/
+
+/home/shusin3/shared/assim/dah_1/run_1000/08_forward_swan/08_forward/: No such file or directory.
+do_swan_adj() >   > Adjust forward swan run ..
+
+Traceback (most recent call last):
+  File "04-simplify_swan.py", line 90, in <module>
+    xp     = pl.loadtxt(dir_in + '/xp.blkout'    )
+  File "/home/nmg/nmg/opt/anaconda/lib/python2.7/site-packages/numpy/lib/npyio.py", line 691, in loadtxt
+    fh = iter(open(fname, 'U'))
+IOError: [Errno 2] No such file or directory: '/home/shusin3/shared/assim/dah_1/run_1000/08_forward_swan/08_forward//xp.blkout'
+ > Finish forward run too  >  With Success < 

@@ -413,6 +413,7 @@ file_sufix += '_SwfErr-'    + str (swift_err_reduce)
 
 file_sufix += '_L-'         + str (localize_len) 
 
+#### FOR EACH REASSIMILATION, CREATE NEW DIRECTORY NAMED assim####/
 dirCount = 0
 assimSubDir = 'assim'+'{:04d}'.format(dirCount)+'/'
 totPath = assimilate_dir+assimSubDir
@@ -421,7 +422,7 @@ while os.path.exists(totPath):
 	assimSubDir = 'assim'+'{:04d}'.format(dirCount)+'/'
         totPath = assimilate_dir+assimSubDir
         print totPath
-print 'New assimilate output directory is: '+totPath
+print 'New assimilation output directory is: '+totPath
 os.mkdir(totPath)
 
 # namep      = 'assimilate_out'+file_sufix+'.nc'

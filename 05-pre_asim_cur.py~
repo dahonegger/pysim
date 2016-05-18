@@ -215,7 +215,6 @@ dirlist = np.array(glob.glob(memdir))
 dirlist.sort()
 
 nmemc = len(dirlist)
-nmemc = base_info.N
 
 #create variables to be read in
 # read SIZE from a sample
@@ -298,12 +297,7 @@ for field in meas.keys():
         #ycu     = yc[~maskm][ind]
         
         for n in range(Nc):
-            # datai[:,n]=interpg(xc[~maskm],yc[~maskm],data[~maskm,n],obs.x,obs.y)
-            if n==0:
-                csa_interp = csa.CSA(xc[~maskm],yc[~maskm],data[~maskm,n])
-            else:
-                csa_interp.zin = data[~maskm,n]
-            datai[:,n] = csa_interp(obs.x,obs.y)
+            datai[:,n]=interpg(xc[~maskm],yc[~maskm],data[~maskm,n],obs.x,obs.y)
         obs.model=datai
         meas[field]=obs
 

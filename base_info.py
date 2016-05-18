@@ -10,7 +10,7 @@ __version__   = "0.1"
 __email__     = "moghimis@gmail.com"
 
 ### 2D ###
-base_dir = '/home/shusin3/shared/assim/dah_test_indentation'
+base_dir = '/home/shusin3/shared/assim/dah_1'
 run_type    = '2D'
 
 ################################################################################
@@ -40,7 +40,7 @@ uv_curv    = False     # always false <<<<<<<<  to use curvilinear grid to exter
 ############  Which model is going to be assimilated >>>>>>>>>>>>>>>>>>>>>>>>
 #Only one of the below options could be TRUE
 #Here starts different arrangements
-asim_sar   = True     # 2. ROMS alone assimilation (waves=False)
+asim_sar   = False    # 2. ROMS alone assimilation (waves=False)
 asim_wav   = True     # 3. SWAN alone assimilation (change the option in
                       #    matlab code to not include velocity in assimilation
                       #    but ROMS still needs to run for getting current into 
@@ -76,7 +76,7 @@ pre_swf_scr ='04-roms2swift.py'
 ################################################################################
 ####  Generating ensemble members (bathymetry)   >>>>>>>>>>>>>>>>>>>>
 #making members bathymetry
-N = 50     #number of members
+N = 10     #number of members
 ###########################################################################
 equal_space = True
 # perturbation scales

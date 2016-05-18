@@ -291,7 +291,7 @@ for itr in range(nstart,nend+1):
 		do_swan_adj(dirs)
 		do_pre_assim_wave(itr, dirs) 
 
-	sys.exit()
+	#sys.exit()
 	#Matlab routine 
 	#do_assimilate_matlab (dirs,sar_err_reduce,radar_err_reduce,asim_sar,asim_wav,asim_swf)
 	#PYTHON routine
@@ -301,7 +301,7 @@ for itr in range(nstart,nend+1):
 
 logf(' > Finish this part ',' With Success < ' ,logfile)
 
-sys.exit() #  
+#sys.exit() #  
 for itr in [0,1,2,3,4,5]:
     print 'Start forward run > ', itr,'  from > ', nend
     base = base_dir+'/run_'+str(1000+itr)+'/'
