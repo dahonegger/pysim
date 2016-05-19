@@ -195,13 +195,10 @@ if True:
 ###############################################################################################
 if real_data:
     # >>>    copy boundary spectra from inner model
-    #Find directory of inner to get BOU spectra
-    # WaveWatch3 Data from Gabriel Garcia
-    ww3Dir = '/home/nmg/nmg/assimilation/nri_ww3/'
-    inner = ww3Dir + '04-inner-tide-currents-final/03-stationary/'
-    ##inner='/home/shusin3/users/ggarcia/projects/new_river_inlet/swan/201205/16-inner-tide-currents/steady/'
-    ##inner='/home/shusin3/users/ggarcia/projects/new_river_inlet/swan/201205_ww3_nested/16-inner-tide-currents/steady/'
-    #inner='/home/shusin3/users/moghimi/coupling/wave_verification/local/01-ggarcia/04-inner-tide-currents-final/03-stationary/'
+    #Find directory of inner to get BOU spectra 
+    #inner='/home/shusin3/users/ggarcia/projects/new_river_inlet/swan/201205/16-inner-tide-currents/steady/'
+    #inner='/home/shusin3/users/ggarcia/projects/new_river_inlet/swan/201205_ww3_nested/16-inner-tide-currents/steady/'
+    inner='/home/shusin3/users/moghimi/coupling/wave_verification/local/01-ggarcia/04-inner-tide-currents-final/03-stationary/'
     wav_base = datetime(2012,05,01,01,0,0);
     units  = 'seconds since '+wav_base.isoformat()[:10]+' '+wav_base.isoformat()[11:]
     utwav  = netcdftime.utime(units)

@@ -10,7 +10,7 @@ __version__   = "0.1"
 __email__     = "moghimis@gmail.com"
 
 ### 2D ###
-base_dir = '/home/shusin3/shared/assim/dah_1'
+base_dir = '/home/shusin3/shared/assim/dah_2_realData'
 run_type    = '2D'
 
 ################################################################################
@@ -35,7 +35,7 @@ servers=[#'irarum',
          ]
 
 ###########  Type of operation  (TWIN test or Real data assimilation)   >>>
-real_data  = False    # False: use synthetic data  True: use read observation
+real_data  = True      # False: use synthetic data  True: use read observation
 uv_curv    = False     # always false <<<<<<<<  to use curvilinear grid to exteract align curve velocity  
 ############  Which model is going to be assimilated >>>>>>>>>>>>>>>>>>>>>>>>
 #Only one of the below options could be TRUE
@@ -55,7 +55,7 @@ asim_sar2 = False    # always False <<<<<< not working at this point
 ################################################################################
 #scripts name
 #ROMS
-main_scr          = '00-run_assim_noIter.py'
+main_scr          = '00-run_assim.py'
 mk_bathy          = '01-make_bathy_bumps.m'  
 adj_bathy         = '02-adjust_bathy_dh.py'
 do_run            = '03-doRuns.sh'           
@@ -76,7 +76,7 @@ pre_swf_scr ='04-roms2swift.py'
 ################################################################################
 ####  Generating ensemble members (bathymetry)   >>>>>>>>>>>>>>>>>>>>
 #making members bathymetry
-N = 10     #number of members
+N = 150     #number of members
 ###########################################################################
 equal_space = True
 # perturbation scales
