@@ -10,7 +10,7 @@ __version__   = "0.1"
 __email__     = "moghimis@gmail.com"
 
 ### 2D ###
-base_dir = '/home/shusin3/shared/assim/dah_2_realData'
+base_dir = '/home/shusin3/shared/assim/dah_realData'
 run_type    = '2D'
 
 ################################################################################
@@ -76,7 +76,7 @@ pre_swf_scr ='04-roms2swift.py'
 ################################################################################
 ####  Generating ensemble members (bathymetry)   >>>>>>>>>>>>>>>>>>>>
 #making members bathymetry
-N = 150     #number of members
+N = 5     #number of members
 ###########################################################################
 equal_space = True
 # perturbation scales
