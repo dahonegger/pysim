@@ -76,7 +76,7 @@ pre_swf_scr ='04-roms2swift.py'
 ################################################################################
 ####  Generating ensemble members (bathymetry)   >>>>>>>>>>>>>>>>>>>>
 #making members bathymetry
-N = 5     #number of members
+N = 2     #number of members
 ###########################################################################
 equal_space = True
 # perturbation scales

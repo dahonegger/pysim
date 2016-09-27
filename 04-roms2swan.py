@@ -196,9 +196,9 @@ if True:
 if real_data:
     # >>>    copy boundary spectra from inner model
     #Find directory of inner to get BOU spectra
-    # WaveWatch3 Data from Gabriel Garcia
-    ww3Dir = '/home/nmg/nmg/assimilation/nri_ww3/'
-    inner = ww3Dir + '04-inner-tide-currents-final/03-stationary/'
+    # Outer SWAN runs directory from Gabriel Garcia
+    bouSwanDir = '/home/nmg/nmg/assimilation/assimModelBoundaryConditions/nri_swanOuterBoundary/'
+    inner = bouSwanDir + '04-inner-tide-currents-final/03-stationary/'
     ##inner='/home/shusin3/users/ggarcia/projects/new_river_inlet/swan/201205/16-inner-tide-currents/steady/'
     ##inner='/home/shusin3/users/ggarcia/projects/new_river_inlet/swan/201205_ww3_nested/16-inner-tide-currents/steady/'
     #inner='/home/shusin3/users/moghimi/coupling/wave_verification/local/01-ggarcia/04-inner-tide-currents-final/03-stationary/'

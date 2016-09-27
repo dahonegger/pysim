@@ -1,67 +1,28 @@
 /home/shusin3/shared/assim/dah_realData/run_1000/03_mem_inp:
-total 40
-drwxrwxr-x+ 2 nmg holman 4096 Sep 22 12:59 member1004
-drwxrwxr-x+ 2 nmg holman 4096 Sep 22 12:59 member1003
-drwxrwxr-x+ 2 nmg holman 4096 Sep 22 12:59 member1002
-drwxrwxr-x+ 2 nmg holman 4096 Sep 22 12:59 member1001
-drwxrwxr-x+ 2 nmg holman 4096 Sep 22 12:59 member1005
-
-/home/shusin3/shared/assim/dah_realData/run_1000/03_mem_inp/member1004:
-total 56616
-lrwxrwxrwx  1 nmg holman       70 Sep 22 12:59 varinfo.dat -> /home/shusin3/shared/assim/dah_realData/inp/const//roms_2d/varinfo.dat
--rwxrwxr-x+ 1 nmg holman    64557 Sep 22 12:59 param.in
-lrwxrwxrwx  1 nmg holman       92 Sep 22 12:59 initial.nc -> /home/shusin3/shared/assim/dah_realData/inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
-lrwxrwxrwx  1 nmg holman       71 Sep 22 12:59 grd.nc -> /home/shusin3/shared/assim/dah_realData/run_1000/02_bat_adj/bath1004.nc
-lrwxrwxrwx  1 nmg holman       94 Sep 22 12:59 bry.nc -> /home/shusin3/shared/assim/dah_realData/inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
--rwxrwxr-x+ 1 nmg holman  5109688 Sep 22 13:00 nri_avg.nc
--rwxrwxr-x+ 1 nmg holman 44339680 Sep 22 13:29 nri_his_0001.nc
--rwxrwxr-x+ 1 nmg holman   349156 Sep 22 13:29 runlog
--rwxrwxr-x+ 1 nmg holman  7980972 Sep 22 13:29 nri_rst.nc
-
-/home/shusin3/shared/assim/dah_realData/run_1000/03_mem_inp/member1003:
-total 55680
-lrwxrwxrwx  1 nmg holman       70 Sep 22 12:59 varinfo.dat -> /home/shusin3/shared/assim/dah_realData/inp/const//roms_2d/varinfo.dat
--rwxrwxr-x+ 1 nmg holman    64557 Sep 22 12:59 param.in
-lrwxrwxrwx  1 nmg holman       92 Sep 22 12:59 initial.nc -> /home/shusin3/shared/assim/dah_realData/inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
-lrwxrwxrwx  1 nmg holman       71 Sep 22 12:59 grd.nc -> /home/shusin3/shared/assim/dah_realData/run_1000/02_bat_adj/bath1003.nc
-lrwxrwxrwx  1 nmg holman       94 Sep 22 12:59 bry.nc -> /home/shusin3/shared/assim/dah_realData/inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
--rwxrwxr-x+ 1 nmg holman  5109688 Sep 22 13:00 nri_avg.nc
--rwxrwxr-x+ 1 nmg holman  7980972 Sep 22 13:28 nri_rst.nc
--rwxrwxr-x+ 1 nmg holman 43382872 Sep 22 13:28 nri_his_0001.nc
--rwxrwxr-x+ 1 nmg holman   348232 Sep 22 13:29 runlog
-
-/home/shusin3/shared/assim/dah_realData/run_1000/03_mem_inp/member1002:
-total 56616
-lrwxrwxrwx  1 nmg holman       70 Sep 22 12:59 varinfo.dat -> /home/shusin3/shared/assim/dah_realData/inp/const//roms_2d/varinfo.dat
--rwxrwxr-x+ 1 nmg holman    64557 Sep 22 12:59 param.in
-lrwxrwxrwx  1 nmg holman       92 Sep 22 12:59 initial.nc -> /home/shusin3/shared/assim/dah_realData/inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
-lrwxrwxrwx  1 nmg holman       71 Sep 22 12:59 grd.nc -> /home/shusin3/shared/assim/dah_realData/run_1000/02_bat_adj/bath1002.nc
-lrwxrwxrwx  1 nmg holman       94 Sep 22 12:59 bry.nc -> /home/shusin3/shared/assim/dah_realData/inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
--rwxrwxr-x+ 1 nmg holman  5109688 Sep 22 13:00 nri_avg.nc
--rwxrwxr-x+ 1 nmg holman 44339680 Sep 22 13:29 nri_his_0001.nc
--rwxrwxr-x+ 1 nmg holman  7980972 Sep 22 13:29 nri_rst.nc
--rwxrwxr-x+ 1 nmg holman   349576 Sep 22 13:29 runlog
+total 16
+drwxrwxr-x+ 2 nmg holman 4096 Sep 27 15:47 member1001
+drwxrwxr-x+ 2 nmg holman 4096 Sep 27 15:47 member1002
 
 /home/shusin3/shared/assim/dah_realData/run_1000/03_mem_inp/member1001:
-total 56616
-lrwxrwxrwx  1 nmg holman       70 Sep 22 12:59 varinfo.dat -> /home/shusin3/shared/assim/dah_realData/inp/const//roms_2d/varinfo.dat
--rwxrwxr-x+ 1 nmg holman    64557 Sep 22 12:59 param.in
-lrwxrwxrwx  1 nmg holman       92 Sep 22 12:59 initial.nc -> /home/shusin3/shared/assim/dah_realData/inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
-lrwxrwxrwx  1 nmg holman       71 Sep 22 12:59 grd.nc -> /home/shusin3/shared/assim/dah_realData/run_1000/02_bat_adj/bath1001.nc
-lrwxrwxrwx  1 nmg holman       94 Sep 22 12:59 bry.nc -> /home/shusin3/shared/assim/dah_realData/inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
--rwxrwxr-x+ 1 nmg holman  5109688 Sep 22 13:00 nri_avg.nc
--rwxrwxr-x+ 1 nmg holman 44339680 Sep 22 13:29 nri_his_0001.nc
--rwxrwxr-x+ 1 nmg holman   349408 Sep 22 13:29 runlog
--rwxrwxr-x+ 1 nmg holman  7980972 Sep 22 13:29 nri_rst.nc
+total 62272
+-rwxrwxr-x+ 1 nmg holman    64557 Sep 27 15:47 param.in
+lrwxrwxrwx  1 nmg holman       94 Sep 27 15:47 bry.nc -> /home/shusin3/shared/assim/dah_realData/inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+lrwxrwxrwx  1 nmg holman       70 Sep 27 15:47 varinfo.dat -> /home/shusin3/shared/assim/dah_realData/inp/const//roms_2d/varinfo.dat
+lrwxrwxrwx  1 nmg holman       92 Sep 27 15:47 initial.nc -> /home/shusin3/shared/assim/dah_realData/inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx  1 nmg holman       71 Sep 27 15:47 grd.nc -> /home/shusin3/shared/assim/dah_realData/run_1000/02_bat_adj/bath1001.nc
+-rwxrwxr-x+ 1 nmg holman  5109688 Sep 27 15:48 nri_avg.nc
+-rwxrwxr-x+ 1 nmg holman  7980972 Sep 27 16:16 nri_rst.nc
+-rwxrwxr-x+ 1 nmg holman 50080528 Sep 27 16:17 nri_his_0001.nc
+-rwxrwxr-x+ 1 nmg holman   398184 Sep 27 16:17 runlog
 
-/home/shusin3/shared/assim/dah_realData/run_1000/03_mem_inp/member1005:
-total 56616
--rwxrwxr-x+ 1 nmg holman    64557 Sep 22 12:59 param.in
-lrwxrwxrwx  1 nmg holman       70 Sep 22 12:59 varinfo.dat -> /home/shusin3/shared/assim/dah_realData/inp/const//roms_2d/varinfo.dat
-lrwxrwxrwx  1 nmg holman       92 Sep 22 12:59 initial.nc -> /home/shusin3/shared/assim/dah_realData/inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
-lrwxrwxrwx  1 nmg holman       71 Sep 22 12:59 grd.nc -> /home/shusin3/shared/assim/dah_realData/run_1000/02_bat_adj/bath1005.nc
-lrwxrwxrwx  1 nmg holman       94 Sep 22 12:59 bry.nc -> /home/shusin3/shared/assim/dah_realData/inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
--rwxrwxr-x+ 1 nmg holman  5109688 Sep 22 13:00 nri_avg.nc
--rwxrwxr-x+ 1 nmg holman 44339680 Sep 22 13:29 nri_his_0001.nc
--rwxrwxr-x+ 1 nmg holman   348400 Sep 22 13:29 runlog
--rwxrwxr-x+ 1 nmg holman  7980972 Sep 22 13:29 nri_rst.nc
+/home/shusin3/shared/assim/dah_realData/run_1000/03_mem_inp/member1002:
+total 63216
+lrwxrwxrwx  1 nmg holman       70 Sep 27 15:47 varinfo.dat -> /home/shusin3/shared/assim/dah_realData/inp/const//roms_2d/varinfo.dat
+-rwxrwxr-x+ 1 nmg holman    64557 Sep 27 15:47 param.in
+lrwxrwxrwx  1 nmg holman       92 Sep 27 15:47 initial.nc -> /home/shusin3/shared/assim/dah_realData/inp/const//roms_2d/clm_init_nri_his_0009_last_ini.nc
+lrwxrwxrwx  1 nmg holman       71 Sep 27 15:47 grd.nc -> /home/shusin3/shared/assim/dah_realData/run_1000/02_bat_adj/bath1002.nc
+lrwxrwxrwx  1 nmg holman       94 Sep 27 15:47 bry.nc -> /home/shusin3/shared/assim/dah_realData/inp/const//roms_2d/bry_local_v0_3d_from_wl_obs_ver0.nc
+-rwxrwxr-x+ 1 nmg holman  5109688 Sep 27 15:48 nri_avg.nc
+-rwxrwxr-x+ 1 nmg holman  7980972 Sep 27 16:17 nri_rst.nc
+-rwxrwxr-x+ 1 nmg holman   403608 Sep 27 16:17 runlog
+-rwxrwxr-x+ 1 nmg holman 51037336 Sep 27 16:17 nri_his_0001.nc
